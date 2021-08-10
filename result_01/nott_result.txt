@@ -1,0 +1,181 @@
+===================== processing the file nott_0.txt =======================
+**  assumptions 24 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 24 premises 2100
+** Reasoner time:146.27
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_1.txt =======================
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 12 premises 216
+** Reasoner time:0.03
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_2.txt =======================
+**  assumptions 1362 premises 0
+** Reasoner time:0.01
+** Label computation time 0.0
+**  assumptions 1362 premises 6662
+** Reasoner time:8225.0
+** Label computation time 0.16
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = [[[nNS sm16469518 os1000023066576] [nNS os1000023066578 sm16469518]] [[nNS sm16469518 os1000023066569] [nNS os1000023066578 sm16469518]] [[nNS sm16469518 os1000023066986] [nNS os1000023066578 sm16469518]] [[nNS sm16469518 os1000023066642] [nNS os1000023066578 sm16469518]] [[nNS sm16469518 os1000023066639] [nNS os1000023066578 sm16469518]] [[nNS sm16469518 os1000023066577] [nNS os1000023066578 sm16469518]] [[nNS sm16469518 os1000023066569] [nNS os1000023066576 sm16469518]] [[nNS sm16469518 os1000023066986] [nNS os1000023066576 sm16469518]] [[nNS sm16469518 os1000023066569] [nNS os1000023066629 sm16469518]] [[nNS sm16469518 os1000023066986] [nNS os1000023066629 sm16469518]] [[nNS sm16469518 os1000023066642] [nNS os1000023066629 sm16469518]] [[nNS sm16469518 os1000023066639] [nNS os1000023066629 sm16469518]] [[nNS sm16469518 os1000023066577] [nNS os1000023066629 sm16469518]] [[nNS os1000023066597 sm16469518] [nNS sm16469518 os1000023066576]] [[nNS os1000023066604 sm16469518] [nNS sm16469518 os1000023066576]] [[nNS os1000023066588 sm16469518] [nNS sm16469518 os1000023066576]] [[nNS os1000023066602 sm16469518] [nNS sm16469518 os1000023066576]] [[nNS os1000023066615 sm16469518] [nNS sm16469518 os1000023066576]] [[nNS os1000023066581 sm116816377] [nNS sm16469518 os1000023066576]] [[nNS sm16469518 os1000023066629] [nNS os1000023066597 sm16469518]] [[nNS sm16469518 os1000023066615] [nNS os1000023066597 sm16469518]] [[nNS sm16469518 os1000023066578] [nNS os1000023066597 sm16469518]] [[nNS sm16469518 os1000023066569] [nNS os1000023066597 sm16469518]] [[nNS sm16469518 os1000023066986] [nNS os1000023066597 sm16469518]] [[nNS sm16469518 os1000023066642] [nNS os1000023066597 sm16469518]] [[nNS sm16469518 os1000023066639] [nNS os1000023066597 sm16469518]] [[nNS sm16469518 os1000023066577] [nNS os1000023066597 sm16469518]] [[nNS os1000023066604 sm16469518] [nNS sm16469518 os1000023066629]] [[nNS os1000023066588 sm16469518] [nNS sm16469518 os1000023066629]] [[nNS os1000023066602 sm16469518] [nNS sm16469518 os1000023066629]] [[nNS os1000023066615 sm16469518] [nNS sm16469518 os1000023066629]] [[nNS sm16469518 os1000023066597] [nNS os1000023066604 sm16469518]] [[nNS sm16469518 os1000023066615] [nNS os1000023066604 sm16469518]] [[nNS sm16469518 os1000023066578] [nNS os1000023066604 sm16469518]] [[nNS sm16469518 os1000023066569] [nNS os1000023066604 sm16469518]] [[nNS sm16469518 os1000023066588] [nNS os1000023066604 sm16469518]] [[nNS sm16469518 os1000023066986] [nNS os1000023066604 sm16469518]] [[nNS sm16469518 os1000023066642] [nNS os1000023066604 sm16469518]] [[nNS sm16469518 os1000023066639] [nNS os1000023066604 sm16469518]] [[nNS sm16469518 os1000023066577] [nNS os1000023066604 sm16469518]] [[nNS os1000023066602 sm16469518] [nNS sm16469518 os1000023066597]] [[nNS sm16469518 os1000023066578] [nNS os1000023066588 sm16469518]] [[nNS sm16469518 os1000023066569] [nNS os1000023066588 sm16469518]] [[nNS sm16469518 os1000023066986] [nNS os1000023066588 sm16469518]] [[nNS sm16469518 os1000023066642] [nNS os1000023066588 sm16469518]] [[nNS sm16469518 os1000023066639] [nNS os1000023066588 sm16469518]] [[nNS sm16469518 os1000023066577] [nNS os1000023066588 sm16469518]] [[nNS sm16469518 os1000023066615] [nNS os1000023066602 sm16469518]] [[nNS sm16469518 os1000023066578] [nNS os1000023066602 sm16469518]] [[nNS sm16469518 os1000023066569] [nNS os1000023066602 sm16469518]] [[nNS sm16469518 os1000023066588] [nNS os1000023066602 sm16469518]] [[nNS sm16469518 os1000023066986] [nNS os1000023066602 sm16469518]] [[nNS sm16469518 os1000023066642] [nNS os1000023066602 sm16469518]] [[nNS sm16469518 os1000023066639] [nNS os1000023066602 sm16469518]] [[nNS sm16469518 os1000023066577] [nNS os1000023066602 sm16469518]] [[nNS sm16469518 os1000023066569] [nNS os1000023066639 sm16469518]] [[nNS sm16469518 os1000023066986] [nNS os1000023066639 sm16469518]] [[nNS sm16469518 os1000023066578] [nNS os1000023066615 sm16469518]] [[nNS sm16469518 os1000023066569] [nNS os1000023066615 sm16469518]] [[nNS sm16469518 os1000023066986] [nNS os1000023066615 sm16469518]] [[nNS sm16469518 os1000023066642] [nNS os1000023066615 sm16469518]] [[nNS sm16469518 os1000023066639] [nNS os1000023066615 sm16469518]] [[nNS sm16469518 os1000023066577] [nNS os1000023066615 sm16469518]] [[nNS os1000023066577 sm16469518] [nNS sm16469518 os1000023066569]] [[nNS os1000023066581 sm116816377] [nNS sm16469518 os1000023066569]] [[nNS os1000023066642 sm16469518] [nNS sm16469518 os1000023066569]] [[nNS os1000023066582 sm116816366] [nNS sm16469518 os1000023066569]] [[nNS os1000023066583 sm116816371] [nNS sm16469518 os1000023066569]] [[nNS sm16469518 os1000023066986] [nNS os1000023066577 sm16469518]] [[nNS sm16469518 os1000023066986] [nNS os1000023066581 sm116816377]] [[nNS sm16469518 os1000023066642] [nNS os1000023066581 sm116816377]] [[nNS sm16469518 os1000023066639] [nNS os1000023066581 sm116816377]] [[nNS sm16469518 os1000023066577] [nNS os1000023066581 sm116816377]] [[nNS os1000023066582 sm116816366] [nNS sm116816366 os1000023066566]] [[nNS os1000023066582 sm116816366] [nNS sm16469518 os1000023066986]] [[nNS os1000023066583 sm116816371] [nNS sm16469518 os1000023066986]] [[nNS sm16469518 os1000023066642] [nNS os1000023066582 sm116816366]] [[nNS sm16469518 os1000023066639] [nNS os1000023066582 sm116816366]] [[nNS sm16469518 os1000023066577] [nNS os1000023066582 sm116816366]] [[nNS sm16469518 os1000023066642] [nNS os1000023066583 sm116816371]] [[nNS sm16469518 os1000023066639] [nNS os1000023066583 sm116816371]] [[nNS sm16469518 os1000023066577] [nNS os1000023066583 sm116816371]]]
+ns nogoods length = 82
+total nogood number is: 82
+===================== processing the file nott_3.txt =======================
+**  assumptions 118 premises 0
+** Reasoner time:0.01
+** Label computation time 0.0
+**  assumptions 118 premises 7016
+** Reasoner time:3227.63
+** Label computation time 0.03
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = [[[nNS os1000022976783 sm116925428] [nNS sm116925420 os1000022973728]] [[nNS os1000022976876 sm116925420] [nNS sm116925420 os1000022973728]] [[nNS sm116925420 os1000022973742] [nNS os1000022976783 sm116925428]] [[nNS sm116925420 os1000022973722] [nNS os1000022976783 sm116925428]] [[nNS sm120036338 os1000023062528] [nNS os1000022976783 sm116925428]] [[nNS sm116925420 os1000022973723] [nNS os1000022976783 sm116925428]] [[nNS sm116925420 os1000022973719] [nNS os1000022976783 sm116925428]] [[nNS sm116925420 os1000022973721] [nNS os1000022976783 sm116925428]] [[nNS sm116925420 os1000022976788] [nNS os1000022976783 sm116925428]] [[nNS sm116925420 os1000022973720] [nNS os1000022976783 sm116925428]] [[nNS sm116925428 os1000022973732] [nNS os1000022976783 sm116925428]] [[nNS sm116925420 os1000022973731] [nNS os1000022976783 sm116925428]] [[nNS sm116925420 os1000022973731] [nNS os1000022976877 sm116925420]] [[nNS sm116925420 os1000022973731] [nNS os1000022976874 sm116925420]] [[nNS sm116925420 os1000022973720] [nNS os1000022976876 sm116925420]] [[nNS sm116925420 os1000022973731] [nNS os1000022976876 sm116925420]]]
+ns nogoods length = 16
+total nogood number is: 16
+===================== processing the file nott_4.txt =======================
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 12 premises 936
+** Reasoner time:12.73
+** Label computation time 0.01
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_5.txt =======================
+**  assumptions 8 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 8 premises 704
+** Reasoner time:5.55
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_6.txt =======================
+**  assumptions 8 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 8 premises 92
+** Reasoner time:0.02
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_7.txt =======================
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 12 premises 246
+** Reasoner time:0.49
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = [[[nNS os1000023061918 sm132319165] [nNS sm30596985 os1000023061918]]]
+ns nogoods length = 1
+total nogood number is: 1
+===================== processing the file nott_8.txt =======================
+**  assumptions 8 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 8 premises 78
+** Reasoner time:0.02
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_9.txt =======================
+**  assumptions 8 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 8 premises 112
+** Reasoner time:0.02
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_10.txt =======================
+**  assumptions 64 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 64 premises 2892
+** Reasoner time:11.67
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_11.txt =======================
+**  assumptions 76 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 76 premises 74
+** Reasoner time:0.02
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_12.txt =======================
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 4 premises 344
+** Reasoner time:0.08
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_13.txt =======================
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 4 premises 48
+** Reasoner time:0.01
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_14.txt =======================
+**  assumptions 8 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 8 premises 134
+** Reasoner time:0.1
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+//total noggods=99

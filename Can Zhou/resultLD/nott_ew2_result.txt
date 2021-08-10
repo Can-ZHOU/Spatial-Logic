@@ -1,0 +1,181 @@
+===================== processing the file nott_ew2_0.txt =======================
+**  assumptions 24 premises 2100
+** Reasoner time:90.66
+** Label computation time 0.01
+**  assumptions 24 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_ew2_1.txt =======================
+**  assumptions 12 premises 216
+** Reasoner time:0.08
+** Label computation time 0.0
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_ew2_2.txt =======================
+**  assumptions 1362 premises 6662
+** Reasoner time:8953.56
+** Label computation time 0.09
+**  assumptions 1362 premises 0
+** Reasoner time:0.01
+** Label computation time 0.0
+ew nogoods = [[[nEW sm16469518 os1000023066602] [nEW os1000023066578 sm16469518]] [[nEW sm16469518 os1000023066597] [nEW os1000023066576 sm16469518]] [[nEW sm16469518 os1000023066588] [nEW os1000023066576 sm16469518]] [[nEW sm16469518 os1000023066602] [nEW os1000023066576 sm16469518]] [[nEW sm16469518 os1000023066597] [nEW os1000023066629 sm16469518]] [[nEW sm16469518 os1000023066578] [nEW os1000023066629 sm16469518]] [[nEW sm16469518 os1000023066604] [nEW os1000023066629 sm16469518]] [[nEW sm16469518 os1000023066588] [nEW os1000023066629 sm16469518]] [[nEW sm16469518 os1000023066986] [nEW os1000023066629 sm16469518]] [[nEW sm16469518 os1000023066577] [nEW os1000023066629 sm16469518]] [[nEW sm16469518 os1000023066602] [nEW os1000023066629 sm16469518]] [[nEW os1000023066566 sm116816366] [nEW sm16469518 os1000023066576]] [[nEW os1000023066642 sm16469518] [nEW sm16469518 os1000023066576]] [[nEW os1000023066566 sm116816366] [nEW sm16469518 os1000023066629]] [[nEW sm16469518 os1000023066602] [nEW os1000023066604 sm16469518]] [[nEW os1000023066569 sm16469518] [nEW sm16469518 os1000023066597]] [[nEW os1000023066639 sm16469518] [nEW sm16469518 os1000023066597]] [[nEW os1000023066615 sm16469518] [nEW sm16469518 os1000023066597]] [[nEW os1000023066566 sm116816366] [nEW sm16469518 os1000023066597]] [[nEW os1000023066642 sm16469518] [nEW sm16469518 os1000023066597]] [[nEW sm16469518 os1000023066588] [nEW os1000023066569 sm16469518]] [[nEW sm16469518 os1000023066602] [nEW os1000023066569 sm16469518]] [[nEW sm16469518 os1000023066578] [nEW os1000023066639 sm16469518]] [[nEW sm16469518 os1000023066604] [nEW os1000023066639 sm16469518]] [[nEW sm16469518 os1000023066588] [nEW os1000023066639 sm16469518]] [[nEW sm16469518 os1000023066986] [nEW os1000023066639 sm16469518]] [[nEW sm16469518 os1000023066577] [nEW os1000023066639 sm16469518]] [[nEW sm16469518 os1000023066602] [nEW os1000023066639 sm16469518]] [[nEW sm16469518 os1000023066588] [nEW os1000023066615 sm16469518]] [[nEW sm16469518 os1000023066986] [nEW os1000023066615 sm16469518]] [[nEW sm16469518 os1000023066577] [nEW os1000023066615 sm16469518]] [[nEW sm16469518 os1000023066602] [nEW os1000023066615 sm16469518]] [[nEW os1000023066566 sm116816366] [nEW sm16469518 os1000023066615]] [[nEW os1000023066566 sm116816366] [nEW sm16469518 os1000023066578]] [[nEW os1000023066642 sm16469518] [nEW sm16469518 os1000023066578]] [[nEW os1000023066566 sm116816366] [nEW sm16469518 os1000023066604]] [[nEW os1000023066642 sm16469518] [nEW sm16469518 os1000023066604]] [[nEW os1000023066566 sm116816366] [nEW sm16469518 os1000023066569]] [[nEW os1000023066642 sm16469518] [nEW sm16469518 os1000023066569]] [[nEW sm16469518 os1000023066602] [nEW os1000023066986 sm16469518]] [[nEW os1000023066566 sm116816366] [nEW sm16469518 os1000023066588]] [[nEW os1000023066642 sm16469518] [nEW sm16469518 os1000023066588]] [[nEW sm116816366 os1000023066582] [nEW os1000023066566 sm116816366]] [[nEW sm16469518 os1000023066986] [nEW os1000023066566 sm116816366]] [[nEW sm16469518 os1000023066639] [nEW os1000023066566 sm116816366]] [[nEW sm16469518 os1000023066577] [nEW os1000023066566 sm116816366]] [[nEW sm16469518 os1000023066602] [nEW os1000023066566 sm116816366]] [[nEW sm16469518 os1000023066602] [nEW os1000023066581 sm116816377]] [[nEW sm16469518 os1000023066986] [nEW os1000023066642 sm16469518]] [[nEW sm16469518 os1000023066577] [nEW os1000023066642 sm16469518]] [[nEW sm16469518 os1000023066602] [nEW os1000023066642 sm16469518]]]
+ew nogoods length = 51
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 51
+===================== processing the file nott_ew2_3.txt =======================
+**  assumptions 118 premises 7016
+** Reasoner time:6253.47
+** Label computation time 0.0
+**  assumptions 118 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_ew2_4.txt =======================
+**  assumptions 12 premises 936
+** Reasoner time:6.21
+** Label computation time 0.0
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_ew2_5.txt =======================
+**  assumptions 8 premises 704
+** Reasoner time:7.65
+** Label computation time 0.0
+**  assumptions 8 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_ew2_6.txt =======================
+**  assumptions 8 premises 92
+** Reasoner time:0.02
+** Label computation time 0.0
+**  assumptions 8 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_ew2_7.txt =======================
+**  assumptions 12 premises 246
+** Reasoner time:0.26
+** Label computation time 0.0
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_ew2_8.txt =======================
+**  assumptions 8 premises 78
+** Reasoner time:0.02
+** Label computation time 0.0
+**  assumptions 8 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_ew2_9.txt =======================
+**  assumptions 8 premises 112
+** Reasoner time:0.01
+** Label computation time 0.0
+**  assumptions 8 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_ew2_10.txt =======================
+**  assumptions 64 premises 2892
+** Reasoner time:268.41
+** Label computation time 0.0
+**  assumptions 64 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_ew2_11.txt =======================
+**  assumptions 76 premises 74
+** Reasoner time:0.05
+** Label computation time 0.0
+**  assumptions 76 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = [[[nEW os1000022976754 sm85652936] [nEW sm125686588 os1000022976754]] [[nEW sm125686588 os1000022976751] [nEW os1000022976754 sm125686588]] [[nEW sm125686588 os1000022976751] [nEW os1000022976754 sm85652936]] [[nEW sm85652936 os1000022976751] [nEW os1000022976754 sm85652936]] [[nEW sm125686588 os1000022976751] [nEW os1000022976751 sm85652936]]]
+ew nogoods length = 5
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 5
+===================== processing the file nott_ew2_12.txt =======================
+**  assumptions 4 premises 344
+** Reasoner time:1.02
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_ew2_13.txt =======================
+**  assumptions 4 premises 48
+** Reasoner time:0.01
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_ew2_14.txt =======================
+**  assumptions 8 premises 134
+** Reasoner time:0.04
+** Label computation time 0.0
+**  assumptions 8 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+

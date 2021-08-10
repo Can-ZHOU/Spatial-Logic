@@ -1,2 +1,0 @@
-# Spacial-Logic
- 

@@ -1,0 +1,6 @@
+v0（new）:为最初版，即不加改变order的alphabefore函数，仅实现paper中有的axioms （自动生成对称relation）
+v0_1:在最初版的情况下，实现了new axioms, v0_1 also uses the new_LD_reasoner.p
+v0_2: 在v0_1的基础上，为重复生成的relation添加了tag，但运行时间还是略长
+v1:为加了alphabefore函数的版本，减少了自动生成的对称relation，但是增加了axioms量
+v2:为测试把BPT加入到原axioms的版本，实验结果并不好，所以废弃
+v3：LNF版，即把not，or等逻辑连接符当做relation来处理
