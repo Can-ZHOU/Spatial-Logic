@@ -211,8 +211,8 @@ define :ruleset ew_ld_ruleset;
 	[ATMS_INCONSISTENT ?a1 ?a2]
 
 
-    ;;; AS 6 W (a, b) ∧ ¬dE(b, c) ∧ W (c, a) → ⊥;
-    ;;; AS 6 W (a, b) ∧ (Iew(b,c) ∨ dW(b,c)) ∧ W (c, a) → ⊥; 
+    ;;; AS 5 W (a, b) ∧ ¬dE(b, c) ∧ W (c, a) → ⊥;
+    ;;; AS 5 W (a, b) ∧ (Iew(b,c) ∨ dW(b,c)) ∧ W (c, a) → ⊥; 
 	RULE EW_axiom_6_1
 	[W ?A ?B] [->> a1]
 	[Iew ?B ?C] [->> a2]
@@ -231,7 +231,7 @@ define :ruleset ew_ld_ruleset;
     [SAYIF ld 'EW_axiom_6_2 Inconsistent data' ?a1 ?a2 ?a3]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3]
 
-    ;;; AS 7 ¬E(a, b) ∧ dW (b, c) ∧ ¬E(c, a) → ⊥;
+    ;;; AS 6 ¬E(a, b) ∧ dW (b, c) ∧ ¬E(c, a) → ⊥;
     ;;; (nEW(a,b) ∨ W(a,b)) ∧ dW (b,c) ∧ (nEW(c,a) ∨ W(c,a)) → ⊥;
 	RULE EW_axiom_7_1
 	[nEW ?A ?B] [->> a1]
@@ -271,7 +271,7 @@ define :ruleset ew_ld_ruleset;
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3]
 */
 
-    ;;; AS 8 W (a, b) ∧ ¬E(b, c) ∧ W(c, d) ∧ ¬E(d, a) → ⊥;
+    ;;; AS 7 W (a, b) ∧ ¬E(b, c) ∧ W(c, d) ∧ ¬E(d, a) → ⊥;
     ;;; W (a, b) ∧ (nEW(b, c) ∨ W(b, c)) ∧ W(c, d) ∧ (nEW(d, a) ∨ W(d, a)) → ⊥;
 	RULE EW_axiom_8_1
 	[W ?A ?B] [->> a1]
@@ -315,7 +315,7 @@ define :ruleset ew_ld_ruleset;
     [SAYIF ld 'EW_axiom_8_4 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 */
-    ;;; AS 9 W (a, b) ∧ ¬E(b, c) ∧ ¬dE(c, d) ∧ dW (d, a) → ⊥;
+    ;;; AS 8 W (a, b) ∧ ¬E(b, c) ∧ ¬dE(c, d) ∧ dW (d, a) → ⊥;
     ;;; W (a, b) ∧ (nEW(b, c) ∨ W(b, c)) ∧  (Iew(c, d) ∨ dW(c, d)) ∧ dW (d, a) → ⊥;
 	RULE EW_axiom_9_1
 	[W ?A ?B] [->> a1]
@@ -360,7 +360,7 @@ define :ruleset ew_ld_ruleset;
     [SAYIF ld 'EW_axiom_9_4 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 */
-    ;;; AS 10 ¬E(a, b) ∧ W (b, c) ∧ dW (c, d) ∧ ¬dE(d, a) → ⊥;
+    ;;; AS 9 ¬E(a, b) ∧ W (b, c) ∧ dW (c, d) ∧ ¬dE(d, a) → ⊥;
     ;;; (nEW(a, b) ∨ W(a, b)) ∧ W (b, c) ∧ dW (c, d) ∧(Iew(d, a) ∨ dW(d, a)) → ⊥;
 	RULE EW_axiom_10_1
 	[nEW ?A ?B] [->> a1]
@@ -408,7 +408,7 @@ define :ruleset ew_ld_ruleset;
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 */
 
-    ;;; AS 11 dW (a, b) ∧ ¬dE(b, c) ∧ dW (c, d) ∧ ¬dE(d, a) → ⊥;
+    ;;; AS 10 dW (a, b) ∧ ¬dE(b, c) ∧ dW (c, d) ∧ ¬dE(d, a) → ⊥;
     ;;; dW (a, b) ∧ (Iew(b, c) ∨ dW(b, c)) ∧ dW (c, d) ∧ (Iew(d, a) ∨ dW(d, a)) → ⊥;
 	RULE EW_axiom_11_1
 	[dW ?A ?B] [->> a1]
@@ -450,7 +450,7 @@ define :ruleset ew_ld_ruleset;
     [SAYIF ld 'EW_axiom_11_4 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 */
-    ;;; AS 12 dW (a, b) ∧ ¬dE(b, c) ∧ ¬dE(c, d) ∧ dW (d, a) → ⊥;
+    ;;; AS 11 dW (a, b) ∧ ¬dE(b, c) ∧ ¬dE(c, d) ∧ dW (d, a) → ⊥;
     ;;; dW (a, b) ∧ (Iew(b, c) ∨ dW(b, c)) ∧ (Iew(c, d) ∨ dW(c, d)) ∧ dW (d, a) → ⊥;
 	RULE EW_axiom_12_1
 	[dW ?A ?B] [->> a1]
@@ -461,7 +461,7 @@ define :ruleset ew_ld_ruleset;
 	==>
     [SAYIF ld 'EW_axiom_12_1 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
-
+Iew(d, a
 /*
 	RULE EW_axiom_12_2
 	[dW ?A ?B] [->> a1]
