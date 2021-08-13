@@ -1,4 +1,6 @@
-### Issues
+## LD when t = 2
+
+### Issues in file new_LD_rules_EW/NS_v0_1.p
 - AS4: R -> L
 - delete RULE EW_axiom_12_4
 - keep new_deleted_rule_02
