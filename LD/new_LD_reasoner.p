@@ -535,7 +535,7 @@ enddefine;
 
 ;;; vars poparglist = ['south_14.txt' 'south_22.txt'];
 
-vars poparglist = ['south_5.txt'];
+vars poparglist = ['south_0.txt'];
 
 run_reasoner(poparglist);
 

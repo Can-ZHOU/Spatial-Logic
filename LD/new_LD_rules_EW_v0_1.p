@@ -336,8 +336,8 @@ define :ruleset ew_ld_ruleset;
 	==>
     [SAYIF ld 'EW_axiom_9_2 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
+
 ;;; new_deleted_rule_02
-/*
 	RULE EW_axiom_9_3
 	[W ?A ?B] [->> a1]
 	[W ?B ?C] [->> a2]
@@ -347,7 +347,7 @@ define :ruleset ew_ld_ruleset;
 	==>
     [SAYIF ld 'EW_axiom_9_3 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
-*/
+
 ;;; new_deleted_rule_03
 /*
 	RULE EW_axiom_9_4
@@ -383,7 +383,6 @@ define :ruleset ew_ld_ruleset;
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 
 ;;; new_deleted_rule_04
-/*
 	RULE EW_axiom_10_3
 	[W ?A ?B] [->> a1]
 	[W ?B ?C] [->> a2]
@@ -394,7 +393,7 @@ define :ruleset ew_ld_ruleset;
     [SAYIF ld 'EW_axiom_10_3 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 
-*/
+
 ;;; new_deleted_rule_05
 /*
 	RULE EW_axiom_10_4
@@ -430,6 +429,7 @@ define :ruleset ew_ld_ruleset;
     [SAYIF ld 'EW_axiom_11_2 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 
+/*
 	RULE EW_axiom_11_3
 	[dW ?A ?B] [->> a1]
 	[dW ?B ?C] [->> a2]
@@ -439,7 +439,9 @@ define :ruleset ew_ld_ruleset;
 	==>
     [SAYIF ld 'EW_axiom_11_3 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
-/*
+*/
+
+
 	RULE EW_axiom_11_4
 	[dW ?A ?B] [->> a1]
 	[dW ?B ?C] [->> a2]
@@ -449,7 +451,7 @@ define :ruleset ew_ld_ruleset;
 	==>
     [SAYIF ld 'EW_axiom_11_4 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
-*/
+
     ;;; AS 11 dW (a, b) ∧ ¬dE(b, c) ∧ ¬dE(c, d) ∧ dW (d, a) → ⊥;
     ;;; dW (a, b) ∧ (Iew(b, c) ∨ dW(b, c)) ∧ (Iew(c, d) ∨ dW(c, d)) ∧ dW (d, a) → ⊥;
 	RULE EW_axiom_12_1
@@ -461,7 +463,7 @@ define :ruleset ew_ld_ruleset;
 	==>
     [SAYIF ld 'EW_axiom_12_1 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
-Iew(d, a
+
 /*
 	RULE EW_axiom_12_2
 	[dW ?A ?B] [->> a1]
@@ -474,6 +476,7 @@ Iew(d, a
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 */
 
+/*
 	RULE EW_axiom_12_3
 	[dW ?A ?B] [->> a1]
 	[dW ?B ?C] [->> a2]
@@ -483,8 +486,10 @@ Iew(d, a
 	==>
     [SAYIF ld 'EW_axiom_12_3 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
+*/
 
 ;;; I released this rule. This is a rule that imitates to all W rules.
+/*
 	RULE EW_axiom_12_4
 	[dW ?A ?B] [->> a1]
 	[dW ?B ?C] [->> a2]
@@ -494,6 +499,7 @@ Iew(d, a
 	==>
     [SAYIF ld 'EW_axiom_12_4 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
+*/
 
 
 enddefine;

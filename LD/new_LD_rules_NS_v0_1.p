@@ -313,7 +313,7 @@ define :ruleset ns_ld_ruleset;
 	==>
     [SAYIF ld 'NS_axiom_8_4 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
-/*
+*/
     ;;; AS 9 S (a, b) ∧ ¬N(b, c) ∧ ¬dN(c, d) ∧ dS (d, a) → ⊥;
     ;;; S (a, b) ∧ (nNS(b, c) ∨ S(b, c)) ∧  (Ins(c, d) ∨ dS(c, d)) ∧ dS (d, a) → ⊥;
 	RULE NS_axiom_9_1
@@ -336,7 +336,6 @@ define :ruleset ns_ld_ruleset;
     [SAYIF ld 'NS_axiom_9_2 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 ;;; new_deleted_rule_02 new_deleted_rule_03
-/*
 	RULE NS_axiom_9_3
 	[S ?A ?B] [->> a1]
 	[S ?B ?C] [->> a2]
@@ -347,6 +346,7 @@ define :ruleset ns_ld_ruleset;
     [SAYIF ld 'NS_axiom_9_3 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 
+/*
 	RULE NS_axiom_9_4
 	[S ?A ?B] [->> a1]
 	[S ?B ?C] [->> a2]
@@ -380,7 +380,6 @@ define :ruleset ns_ld_ruleset;
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 
 ;;; new_deleted_rule_04
-/*
 	RULE NS_axiom_10_3
 	[S ?A ?B] [->> a1]
 	[S ?B ?C] [->> a2]
@@ -390,7 +389,8 @@ define :ruleset ns_ld_ruleset;
 	==>
     [SAYIF ld 'NS_axiom_10_3 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
-*/
+
+
 ;;; new_deleted_rule_05
 /*
 	RULE NS_axiom_10_4
@@ -426,6 +426,7 @@ define :ruleset ns_ld_ruleset;
     [SAYIF ld 'NS_axiom_11_2 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 
+/*
 	RULE NS_axiom_11_3
 	[dS ?A ?B] [->> a1]
 	[dS ?B ?C] [->> a2]
@@ -436,6 +437,7 @@ define :ruleset ns_ld_ruleset;
     [SAYIF ld 'NS_axiom_11_3 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 */
+
 	RULE NS_axiom_11_4
 	[dS ?A ?B] [->> a1]
 	[dS ?B ?C] [->> a2]
@@ -445,7 +447,7 @@ define :ruleset ns_ld_ruleset;
 	==>
     [SAYIF ld 'NS_axiom_11_4 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
-*/
+
     ;;; AS 12 dS (a, b) ∧ ¬dN(b, c) ∧ ¬dN(c, d) ∧ dS (d, a) → ⊥;
     ;;; dS (a, b) ∧ (Ins(b, c) ∨ dS(b, c)) ∧ (Ins(c, d) ∨ dS(c, d)) ∧ dS (d, a) → ⊥;
 	RULE NS_axiom_12_1
@@ -470,6 +472,7 @@ define :ruleset ns_ld_ruleset;
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 */
 
+/*
 	RULE NS_axiom_12_3
 	[dS ?A ?B] [->> a1]
 	[dS ?B ?C] [->> a2]
@@ -479,8 +482,10 @@ define :ruleset ns_ld_ruleset;
 	==>
     [SAYIF ld 'NS_axiom_12_3 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
+*/
 
 ;;; I released this rule. This is a rule that imitates to all W rules.
+/*
 	RULE NS_axiom_12_4
 	[dS ?A ?B] [->> a1]
 	[dS ?B ?C] [->> a2]
@@ -490,6 +495,7 @@ define :ruleset ns_ld_ruleset;
 	==>
     [SAYIF ld 'NS_axiom_12_4 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
+*/
 
 
 enddefine;
