@@ -1,5 +1,6 @@
-## LD when t = 2
+# LD when t = 2
 
+## Aug 14, 2021
 ### Issues in file new_LD_rules_EW/NS_v0_1.p -- fixed
 - AS4: R -> L
 - delete RULE EW_axiom_12_4
@@ -8,3 +9,6 @@
 - keep new_deleted_rule_04
 - delete RULE EW_axiom_11_3
 - check RULE EW_axiom_12_2
+
+## Aug 20, 2021
+### check the new version 15
