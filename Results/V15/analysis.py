@@ -3,11 +3,13 @@ Result Analysis -- LD
 Written by Can Zhou
 '''
 
+dataType = "south"
+
 # init
-fileName1 = "CanZhou/south.txt"
-fileName2 = "Mingda/south.txt"
-reportFileName = "analysis_report_south.txt"
-reportFileNameClean = "south_clean.txt"
+fileName1 = "CanZhou/" + dataType + ".txt"
+fileName2 = "Mingda/" + dataType + ".txt"
+reportFileName = "analysis_report_" + dataType + ".txt"
+reportFileNameClean = dataType + "_clean.txt"
 
 # find nogoods in each file
 def findNogoods(fileName):
