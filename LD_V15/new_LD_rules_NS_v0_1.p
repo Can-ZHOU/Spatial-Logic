@@ -178,7 +178,7 @@ define :ruleset ns_ld_ruleset;
 	RULE NS_axiom_2_2
 	[S ?B ?A] [->> a1]
 	[WHERE some_in_db_p([^a1], trigger_db)]
-    [LVARS [consequent = add_new_formula([N ^a ^b])]]
+    [LVARS [consequent = add_new_formula([N ^A ^B])]]
     ==>
 	[SAYIF ld 'NS_axiom_2_2 Justifying datum' ?consequent ?a1]
 	[ATMS_JUSTIFY ?consequent [?a1]]
