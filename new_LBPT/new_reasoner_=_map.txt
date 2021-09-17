@@ -1,0 +1,970 @@
+===================== processing the file nott_0.txt =======================
+** Processing nott_0.txt assumptions 58 premises 4
+** WARNING: inconsistent premise(s): [BPT sm117924973 os1000022976798]
+Reasoner statistics
+0 reasoner cycles
+
+ATMS statistics
+62 assumptions, 62 nodes, 0 justifications
+62 assumption ids, 0 disjunction ids
+
+0 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 58
+
+Total number of environments: 58
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+Reasoner statistics
+1 reasoner cycles
+
+ATMS statistics
+62 assumptions, 68 nodes, 16 justifications
+62 assumption ids, 0 disjunction ids
+
+4 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 58
+
+Total number of environments: 58
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+** Reasoner time:0.01
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_1.txt =======================
+** Processing nott_1.txt assumptions 20 premises 2
+** WARNING: inconsistent premise(s): [BPT sm30597005 os1000023063625]
+Reasoner statistics
+0 reasoner cycles
+
+ATMS statistics
+22 assumptions, 22 nodes, 0 justifications
+22 assumption ids, 0 disjunction ids
+
+0 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 20
+
+Total number of environments: 20
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+Reasoner statistics
+1 reasoner cycles
+
+ATMS statistics
+22 assumptions, 25 nodes, 8 justifications
+22 assumption ids, 0 disjunction ids
+
+2 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 20
+
+Total number of environments: 20
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+** Reasoner time:0.01
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_2.txt =======================
+** Processing nott_2.txt assumptions 1140 premises 32
+** WARNING: inconsistent premise(s): [BPT os1000023066459 sm116824693]
+Reasoner statistics
+0 reasoner cycles
+
+ATMS statistics
+1172 assumptions, 1172 nodes, 0 justifications
+1172 assumption ids, 0 disjunction ids
+
+0 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 1140
+
+Total number of environments: 1140
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+2 garbage collections
+Reasoner statistics
+1 reasoner cycles
+
+ATMS statistics
+1172 assumptions, 1216 nodes, 144 justifications
+1172 assumption ids, 0 disjunction ids
+
+32 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 1140
+
+Total number of environments: 1140
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+3 garbage collections
+** Reasoner time:0.32
+** Label computation time 0.03
+** []
+nogoods length = 0
+===================== processing the file nott_3.txt =======================
+** Processing nott_3.txt assumptions 711 premises 12
+** WARNING: inconsistent premise(s): [BPT os1000023063045 sm120036329]
+Reasoner statistics
+0 reasoner cycles
+
+ATMS statistics
+723 assumptions, 723 nodes, 0 justifications
+723 assumption ids, 0 disjunction ids
+
+0 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 711
+
+Total number of environments: 711
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+Reasoner statistics
+1 reasoner cycles
+
+ATMS statistics
+723 assumptions, 740 nodes, 52 justifications
+723 assumption ids, 0 disjunction ids
+
+12 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 711
+
+Total number of environments: 711
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+** Reasoner time:0.12
+** Label computation time 0.02
+** []
+nogoods length = 0
+===================== processing the file nott_4.txt =======================
+** Processing nott_4.txt assumptions 361 premises 4
+** WARNING: inconsistent premise(s): [BPT sm116851327 os1000023066517]
+Reasoner statistics
+0 reasoner cycles
+
+ATMS statistics
+365 assumptions, 365 nodes, 0 justifications
+365 assumption ids, 0 disjunction ids
+
+0 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 361
+
+Total number of environments: 361
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+Reasoner statistics
+1 reasoner cycles
+
+ATMS statistics
+365 assumptions, 371 nodes, 16 justifications
+365 assumption ids, 0 disjunction ids
+
+4 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 361
+
+Total number of environments: 361
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+** Reasoner time:0.03
+** Label computation time 0.01
+** []
+nogoods length = 0
+===================== processing the file nott_5.txt =======================
+** Processing nott_5.txt assumptions 352 premises 6
+** WARNING: inconsistent premise(s): [BPT sm95197618 os1000023065791]
+Reasoner statistics
+0 reasoner cycles
+
+ATMS statistics
+358 assumptions, 358 nodes, 0 justifications
+358 assumption ids, 0 disjunction ids
+
+0 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 352
+
+Total number of environments: 352
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+Reasoner statistics
+1 reasoner cycles
+
+ATMS statistics
+358 assumptions, 366 nodes, 28 justifications
+358 assumption ids, 0 disjunction ids
+
+6 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 352
+
+Total number of environments: 352
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+** Reasoner time:0.03
+** Label computation time 0.01
+** []
+nogoods length = 0
+===================== processing the file nott_6.txt =======================
+** Processing nott_6.txt assumptions 2570 premises 34
+** WARNING: inconsistent premise(s): [BPT os1000023066577 sm16469518]
+Reasoner statistics
+0 reasoner cycles
+
+ATMS statistics
+2604 assumptions, 2604 nodes, 0 justifications
+2604 assumption ids, 0 disjunction ids
+
+0 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 2570
+
+Total number of environments: 2570
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+2 garbage collections
+Reasoner statistics
+1 reasoner cycles
+
+ATMS statistics
+2604 assumptions, 2684 nodes, 2676 justifications
+2604 assumption ids, 0 disjunction ids
+
+2660 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 2570
+
+Total number of environments: 2570
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+12 garbage collections
+Reasoner statistics
+2 reasoner cycles
+
+ATMS statistics
+2604 assumptions, 2684 nodes, 2676 justifications
+2604 assumption ids, 0 disjunction ids
+
+2660 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 2570
+
+Total number of environments: 2570
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+20 garbage collections
+** Reasoner time:16.01
+** Label computation time 1868.51
+** []
+nogoods length = 0
+===================== processing the file nott_7.txt =======================
+** Processing nott_7.txt assumptions 156 premises 2
+** WARNING: inconsistent premise(s): [BPT sm116917421 os1000023066352]
+Reasoner statistics
+0 reasoner cycles
+
+ATMS statistics
+158 assumptions, 158 nodes, 0 justifications
+158 assumption ids, 0 disjunction ids
+
+0 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 156
+
+Total number of environments: 156
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+Reasoner statistics
+1 reasoner cycles
+
+ATMS statistics
+158 assumptions, 161 nodes, 8 justifications
+158 assumption ids, 0 disjunction ids
+
+2 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 156
+
+Total number of environments: 156
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+** Reasoner time:0.01
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_8.txt =======================
+** Processing nott_8.txt assumptions 115 premises 6
+** WARNING: inconsistent premise(s): [BPT sm116824700 os1000023066430]
+Reasoner statistics
+0 reasoner cycles
+
+ATMS statistics
+121 assumptions, 121 nodes, 0 justifications
+121 assumption ids, 0 disjunction ids
+
+0 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 115
+
+Total number of environments: 115
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+Reasoner statistics
+1 reasoner cycles
+
+ATMS statistics
+121 assumptions, 130 nodes, 24 justifications
+121 assumption ids, 0 disjunction ids
+
+6 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 115
+
+Total number of environments: 115
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+** Reasoner time:0.01
+** Label computation time 0.01
+** []
+nogoods length = 0
+===================== processing the file nott_9.txt =======================
+** Processing nott_9.txt assumptions 33 premises 4
+** WARNING: inconsistent premise(s): [BPT sm116917383 os1000022976770]
+Reasoner statistics
+0 reasoner cycles
+
+ATMS statistics
+37 assumptions, 37 nodes, 0 justifications
+37 assumption ids, 0 disjunction ids
+
+0 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 33
+
+Total number of environments: 33
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+Reasoner statistics
+1 reasoner cycles
+
+ATMS statistics
+37 assumptions, 42 nodes, 20 justifications
+37 assumption ids, 0 disjunction ids
+
+4 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 33
+
+Total number of environments: 33
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+** Reasoner time:0.0
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_10.txt =======================
+** Processing nott_10.txt assumptions 56 premises 4
+** WARNING: inconsistent premise(s): [BPT os1000023065149 sm116810776]
+Reasoner statistics
+0 reasoner cycles
+
+ATMS statistics
+60 assumptions, 60 nodes, 0 justifications
+60 assumption ids, 0 disjunction ids
+
+0 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 56
+
+Total number of environments: 56
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+Reasoner statistics
+1 reasoner cycles
+
+ATMS statistics
+60 assumptions, 66 nodes, 16 justifications
+60 assumption ids, 0 disjunction ids
+
+4 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 56
+
+Total number of environments: 56
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+** Reasoner time:0.01
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_11.txt =======================
+** Processing nott_11.txt assumptions 25 premises 8
+** WARNING: inconsistent premise(s): [BPT os1000022976751 sm85652936]
+Reasoner statistics
+0 reasoner cycles
+
+ATMS statistics
+33 assumptions, 33 nodes, 0 justifications
+33 assumption ids, 0 disjunction ids
+
+0 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 25
+
+Total number of environments: 25
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+Reasoner statistics
+1 reasoner cycles
+
+ATMS statistics
+33 assumptions, 41 nodes, 48 justifications
+33 assumption ids, 0 disjunction ids
+
+8 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 25
+
+Total number of environments: 25
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+** Reasoner time:0.02
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_12.txt =======================
+** Processing nott_12.txt assumptions 9 premises 4
+** WARNING: inconsistent premise(s): [BPT sm116925426 os1000022973746]
+Reasoner statistics
+0 reasoner cycles
+
+ATMS statistics
+13 assumptions, 13 nodes, 0 justifications
+13 assumption ids, 0 disjunction ids
+
+0 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 9
+
+Total number of environments: 9
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+Reasoner statistics
+1 reasoner cycles
+
+ATMS statistics
+13 assumptions, 19 nodes, 16 justifications
+13 assumption ids, 0 disjunction ids
+
+4 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 9
+
+Total number of environments: 9
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+** Reasoner time:0.01
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_13.txt =======================
+** Processing nott_13.txt assumptions 135 premises 6
+** WARNING: inconsistent premise(s): [BPT sm132319162 os1000023062172]
+Reasoner statistics
+0 reasoner cycles
+
+ATMS statistics
+141 assumptions, 141 nodes, 0 justifications
+141 assumption ids, 0 disjunction ids
+
+0 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 135
+
+Total number of environments: 135
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+Reasoner statistics
+1 reasoner cycles
+
+ATMS statistics
+141 assumptions, 149 nodes, 29 justifications
+141 assumption ids, 0 disjunction ids
+
+7 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 135
+
+Total number of environments: 135
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+** Reasoner time:0.01
+** Label computation time 0.01
+** []
+nogoods length = 0
+===================== processing the file nott_14.txt =======================
+** Processing nott_14.txt assumptions 35 premises 4
+** WARNING: inconsistent premise(s): [BPT os1000023065717 sm125402781]
+Reasoner statistics
+0 reasoner cycles
+
+ATMS statistics
+39 assumptions, 39 nodes, 0 justifications
+39 assumption ids, 0 disjunction ids
+
+0 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 35
+
+Total number of environments: 35
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+Reasoner statistics
+1 reasoner cycles
+
+ATMS statistics
+39 assumptions, 45 nodes, 16 justifications
+39 assumption ids, 0 disjunction ids
+
+4 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 35
+
+Total number of environments: 35
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+** Reasoner time:0.0
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_15.txt =======================
+** Processing nott_15.txt assumptions 2805 premises 50
+** WARNING: inconsistent premise(s): [BPT os1000022976876 sm116925420]
+Reasoner statistics
+0 reasoner cycles
+
+ATMS statistics
+2855 assumptions, 2855 nodes, 0 justifications
+2855 assumption ids, 0 disjunction ids
+
+0 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 2805
+
+Total number of environments: 2805
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+Reasoner statistics
+1 reasoner cycles
+
+ATMS statistics
+2855 assumptions, 2917 nodes, 520 justifications
+2855 assumption ids, 0 disjunction ids
+
+50 justifs for ATMS falsity
+
+ATMS nogoods
+
+
+Total number of nogoods: 0
+
+ATMS environments
+
+size: 1 environments: 2805
+
+Total number of environments: 2805
+
+ATMS choice sequences
+
+
+Total numbers of choice sequences: 0 longest sequences: 0
+
+1 garbage collections
+** Reasoner time:9.19
+** Label computation time 0.06
+** []
+nogoods length = 0

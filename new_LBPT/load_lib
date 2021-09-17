@@ -1,0 +1,13 @@
+load lisp_utils.p;
+load atms_types.p;
+load atms_nodes.p;
+load LBPT_reasoner.p;
+load LBPT_rules.p;
+load LBPT_base_abox.p;
+load rel.p;
+load new_LBPT_rules.p;
+load new_LBPT_reasoner.p;
+load popatms.p;
+load prb_atms.p;
+
+lbpt_read('nott_2.txt');

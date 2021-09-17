@@ -1,0 +1,93 @@
+===================== processing the file nott_0.txt =======================
+** Processing nott_0.txt assumptions 6 premises 132
+** Reasoner time:0.02
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_1.txt =======================
+** Processing nott_1.txt assumptions 3 premises 51
+** Reasoner time:0.01
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_2.txt =======================
+** Processing nott_2.txt assumptions 48 premises 2355
+** Reasoner time:2.0
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_3.txt =======================
+** Processing nott_3.txt assumptions 18 premises 1481
+** Reasoner time:0.89
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_4.txt =======================
+** Processing nott_4.txt assumptions 6 premises 760
+** Reasoner time:0.3
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_5.txt =======================
+** Processing nott_5.txt assumptions 9 premises 745
+** Reasoner time:0.24
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_7.txt =======================
+** Processing nott_7.txt assumptions 3 premises 337
+** Reasoner time:0.07
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_8.txt =======================
+** Processing nott_8.txt assumptions 9 premises 250
+** Reasoner time:0.04
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_9.txt =======================
+** Processing nott_9.txt assumptions 6 premises 78
+** Reasoner time:0.01
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_10.txt =======================
+** Processing nott_10.txt assumptions 6 premises 128
+** Reasoner time:0.01
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_11.txt =======================
+** Processing nott_11.txt assumptions 102 premises 61
+** Reasoner time:0.19
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_12.txt =======================
+** Processing nott_12.txt assumptions 6 premises 25
+** Reasoner time:0.01
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_13.txt =======================
+** Processing nott_13.txt assumptions 9 premises 293
+** Reasoner time:0.06
+** Label computation time 0.0
+** [[[BPT os1000023061918 sm132319165] [BPT sm30596985 os1000023061918]]
+    [[BEQ os1000023061918 sm132319165] [BPT sm30596985 os1000023061918]]
+    [[BEQ os1000023061918 sm30596985] [BPT os1000023061918 sm132319165]]
+    [[BEQ os1000023061918 sm132319165] [BEQ os1000023061918 sm30596985]]]
+nogoods length = 4
+===================== processing the file nott_14.txt =======================
+** Processing nott_14.txt assumptions 6 premises 83
+** Reasoner time:0.01
+** Label computation time 0.0
+** []
+nogoods length = 0
+===================== processing the file nott_15.txt =======================
+** Processing nott_15.txt assumptions 102 premises 5723
+** Reasoner time:46.65
+** Label computation time 0.0
+** []
+nogoods length = 0
