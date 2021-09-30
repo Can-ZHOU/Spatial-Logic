@@ -300,21 +300,21 @@ define :ruleset lbpt_ruleset;
 
     ;;; Additional rules for BPT
         
-    RULE bpt_1
-	[INDATA ?trigger_db [BPT ?A ?B]] [->> a1]
-	[WHERE not(mapping_relation(a1))]
-    ==>
-	[SAYIF lbpt 'bpt_1 Inconsistent datum' ?a1]
-	[ATMS_INCONSISTENT ?a1]
-  
-   RULE bpt_2
-	[BPT ?A ?B] [->> a1]
-    [BPT ?B ?C] [->> a2]
-	[WHERE some_in_db_p([^a1 ^a2], trigger_db) and 
-	       not(mapping_relation([BPT ^A ^C]))]
-    ==>
-	[SAYIF lbpt 'bpt_2 Inconsistent data' ?a1 ?a2]
-	[ATMS_INCONSISTENT ?a1 ?a2]
+;;;    RULE bpt_1
+;;;	[INDATA ?trigger_db [BPT ?A ?B]] [->> a1]
+;;;	[WHERE not(mapping_relation(a1))]
+;;;    ==>
+;;;	[SAYIF lbpt 'bpt_1 Inconsistent datum' ?a1]
+;;;	[ATMS_INCONSISTENT ?a1]
+;;;  
+;;;   RULE bpt_2
+;;;	[BPT ?A ?B] [->> a1]
+;;;    [BPT ?B ?C] [->> a2]
+;;;	[WHERE some_in_db_p([^a1 ^a2], trigger_db) and 
+;;;	       not(mapping_relation([BPT ^A ^C]))]
+;;;    ==>
+;;;	[SAYIF lbpt 'bpt_2 Inconsistent data' ?a1 ?a2]
+;;;	[ATMS_INCONSISTENT ?a1 ?a2]
 
 enddefine;
 

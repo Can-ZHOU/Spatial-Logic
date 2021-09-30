@@ -22,7 +22,7 @@ vars ;;; PRB interface procedures
      procedure cannonicalise_datum,
 
      ;;; Reasoner procedures and utilities
-     ;;; procedure print_db,
+     procedure print_db,
      procedure printable_atms_assumptions,
      procedure atms_environment_datum_list,
      procedure printable_atms_nogoods,
@@ -415,10 +415,8 @@ define run_reasoner(poparglist);
 enddefine;
 
 ;;; nott_6.txt is too big to run.
-;;; vars poparglist = ['nott_0.txt' 'nott_1.txt' 'nott_2.txt' 'nott_3.txt' 'nott_4.txt' 'nott_5.txt' 'nott_6.txt' 'nott_7.txt' 'nott_8.txt' 'nott_9.txt' 'nott_10.txt' 'nott_11.txt' 'nott_12.txt' 'nott_13.txt' 'nott_14.txt'];
-vars poparglist = ['south_0.txt' 'south_1.txt' 'south_2.txt' 'south_3.txt' 'south_4.txt' 'south_5.txt' 'south_6.txt' 'south_7.txt' 'south_8.txt' 'south_9.txt' 'south_10.txt' 'south_12.txt' 'south_13.txt' 'south_14.txt' 'south_16.txt' 'south_17.txt' 'south_18.txt' 'south_19.txt' 'south_20.txt' 'south_21.txt' 'south_22.txt' 'south_23.txt' 'south_24.txt' 'south_25.txt' 'south_26.txt'];
-
-
+vars poparglist = ['nott_0.txt' 'nott_1.txt' 'nott_2.txt' 'nott_3.txt' 'nott_4.txt' 'nott_5.txt' 'nott_7.txt' 'nott_8.txt' 'nott_9.txt' 'nott_10.txt' 'nott_11.txt' 'nott_12.txt' 'nott_13.txt' 'nott_14.txt' 'nott_15.txt'];
+;;;vars poparglist = ['nott_13.txt'];
 run_reasoner(poparglist);
 
 ;;; load LBPT_reasoner.p;
