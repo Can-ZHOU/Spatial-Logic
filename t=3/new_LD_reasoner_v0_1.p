@@ -525,13 +525,13 @@ define run_reasoner(poparglist);
     endif;
 enddefine;
 
-;; vars poparglist = ['nott_tau3_0.txt' 'nott_tau3_1.txt' 'nott_tau3_2.txt' 'nott_tau3_3.txt' 'nott_tau3_4.txt' 'nott_tau3_5.txt' 'nott_tau3_6.txt' 'nott_tau3_7.txt' 'nott_tau3_8.txt' 'nott_tau3_9.txt' 'nott_tau3_10.txt' 'nott_tau3_11.txt' 'nott_tau3_12.txt' 'nott_tau3_13.txt' 'nott_tau3_14.txt'];
+vars poparglist = ['nott_tau3_0.txt' 'nott_tau3_1.txt' 'nott_tau3_2.txt' 'nott_tau3_3.txt' 'nott_tau3_4.txt' 'nott_tau3_5.txt' 'nott_tau3_6.txt' 'nott_tau3_7.txt' 'nott_tau3_8.txt' 'nott_tau3_9.txt' 'nott_tau3_10.txt' 'nott_tau3_11.txt' 'nott_tau3_12.txt' 'nott_tau3_13.txt' 'nott_tau3_14.txt'];
 
 ;;; vars poparglist = ['nott_tau3_1.txt' 'nott_tau3_6.txt' 'nott_tau3_7.txt' 'nott_tau3_8.txt' 'nott_tau3_9.txt' 'nott_tau3_11.txt' 'nott_tau3_12.txt' 'nott_tau3_13.txt' 'nott_tau3_14.txt'];
 
 ;;; vars poparglist = ['nott_tau3_2.txt'];
 
-vars poparglist = ['south_tau3_0.txt' 'south_tau3_1.txt' 'south_tau3_2.txt' 'south_tau3_3.txt' 'south_tau3_4.txt' 'south_tau3_5.txt' 'south_tau3_6.txt' 'south_tau3_7.txt' 'south_tau3_8.txt' 'south_tau3_9.txt' 'south_tau3_10.txt' 'south_tau3_11.txt' 'south_tau3_12.txt' 'south_tau3_13.txt' 'south_tau3_14.txt' 'south_tau3_15.txt' 'south_tau3_16.txt' 'south_tau3_17.txt' 'south_tau3_18.txt' 'south_tau3_19.txt' 'south_tau3_20.txt' 'south_tau3_21.txt' 'south_tau3_22.txt' 'south_tau3_23.txt' 'south_tau3_24.txt' 'south_tau3_25.txt' 'south_tau3_26.txt'];
+;;; vars poparglist = ['south_tau3_0.txt' 'south_tau3_1.txt' 'south_tau3_2.txt' 'south_tau3_3.txt' 'south_tau3_4.txt' 'south_tau3_5.txt' 'south_tau3_6.txt' 'south_tau3_7.txt' 'south_tau3_8.txt' 'south_tau3_9.txt' 'south_tau3_10.txt' 'south_tau3_11.txt' 'south_tau3_12.txt' 'south_tau3_13.txt' 'south_tau3_14.txt' 'south_tau3_15.txt' 'south_tau3_16.txt' 'south_tau3_17.txt' 'south_tau3_18.txt' 'south_tau3_19.txt' 'south_tau3_20.txt' 'south_tau3_21.txt' 'south_tau3_22.txt' 'south_tau3_23.txt' 'south_tau3_24.txt' 'south_tau3_25.txt' 'south_tau3_26.txt'];
 ;;; 'nott_tau3_0.txt' 'nott_tau3_1.txt' 'nott_tau3_2.txt' 'nott_tau3_3.txt' 'nott_tau3_4.txt' 'nott_tau3_5.txt' 'nott_tau3_6.txt' 'nott_tau3_7.txt' 'nott_tau3_8.txt' 'nott_tau3_9.txt' 'nott_tau3_10.txt' 'nott_tau3_11.txt' 'nott_tau3_12.txt' 'nott_tau3_13.txt' 'nott_tau3_14.txt'
 
 ;;; vars poparglist = ['south_tau3_14.txt' 'south_tau3_22.txt'];

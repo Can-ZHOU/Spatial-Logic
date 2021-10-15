@@ -6,10 +6,10 @@ os.makedirs(path, exist_ok=True)
 
 # ################################################################################################################
 # get and save all the results
-Popen(['pop11', 'new_LD_reasoner_south_ew.p'], stdout = open(path+'/south_ew.txt', 'w'))
-Popen(['pop11', 'new_LD_reasoner_south_ns.p'], stdout = open(path+'/south_ns.txt', 'w'))
-Popen(['pop11', 'new_LD_reasoner_nott_ew.p'], stdout = open(path+'/nott_ew.txt', 'w'))
-Popen(['pop11', 'new_LD_reasoner_nott_ns.p'], stdout = open(path+'/nott_ns.txt', 'w'))
+# Popen(['pop11', 'new_LD_reasoner_south_ew.p'], stdout = open(path+'/south_ew.txt', 'w'))
+# Popen(['pop11', 'new_LD_reasoner_south_ns.p'], stdout = open(path+'/south_ns.txt', 'w'))
+# Popen(['pop11', 'new_LD_reasoner_nott_ew.p'], stdout = open(path+'/nott_ew.txt', 'w'))
+# Popen(['pop11', 'new_LD_reasoner_nott_ns.p'], stdout = open(path+'/nott_ns.txt', 'w'))
 
 ##################################################################################################################
 # analysis and get clean file
@@ -58,42 +58,64 @@ def cleanPrint(fileList):
         result += tmp[0] + "," + tmp[1] + "," + tmp[2] + "," + tmp[3] + "\n"
     return result
 
+def orderedList(myList):
+    orderedList = []
+    for item in myList:
+        tmp = []
+        tmp.clear()
+        if "os" in item[0]:
+            tmp.append(item[0])
+            tmp.append(item[1])
+        else:
+            tmp.append(item[1])
+            tmp.append(item[0])
+        if "os" in item[2]:
+            tmp.append(item[2])
+            tmp.append(item[3])
+        else:
+            tmp.append(item[3])
+            tmp.append(item[2])
+        orderedList.append(tmp)
+    return orderedList
+
 def analysisClean(fileName1, fileName2, reportFileName, reportFileNameClean):
     file1List = findNogoods(fileName1)
     file2List = findNogoods(fileName2)
 
+    # ordered
+    file1ListOrdered = orderedList(file1List)
+    file2ListOrdered = orderedList(file2List)
+
     # analysis
-    duplicate = []
-    file1Unique = []
-    file2Unique = file2List.copy()
-    for nogood in file1List:
-        if nogood in file2List:
-            duplicate.append(nogood)
-            file2Unique.remove(nogood)
-        else:
-            file1Unique.append(nogood)
+    unique = []
+    for nogood in file1ListOrdered:
+        tmp1 = [nogood[0], nogood[1], nogood[2], nogood[3]]
+        tmp2 = [nogood[2], nogood[3], nogood[0], nogood[1]]
+
+        if (tmp1 not in unique) and (tmp2 not in unique):
+            unique.append(nogood)
+    
+    for nogood in file2ListOrdered:
+        tmp1 = [nogood[0], nogood[1], nogood[2], nogood[3]]
+        tmp2 = [nogood[2], nogood[3], nogood[0], nogood[1]]
+
+        if (tmp1 not in unique) and (tmp2 not in unique):
+            unique.append(nogood)
+
 
     # write report
-    allNogoods = len(file1List) + len(file2List) - len(duplicate)
     reportFile = open(reportFileName, "w")
-    report = "Summary:" + "\n" + str(fileName1) + ":" \
-        + "\nTotoal nogoods: " + str(len(file1List)) + "; unique nogoods: " + str(len(file1Unique)) + "; duplicate nogoods: " + str(len(duplicate)) \
-        + "\n" + str(fileName2) + ":" \
-        + "\nTotoal nogoods: " + str(len(file2List)) + "; unique nogoods: " + str(len(file2Unique)) + "; duplicate nogoods: " + str(len(duplicate)) \
-        + "\n\nAll nogoods:" + str(allNogoods) \
+    report = "Summary:" + "\n" + str(fileName1) + " and " + str(fileName2) + ":" \
+        + "\n\nAll nogoods:" + str(len(unique)) \
         + "\n\n---------------------------------------" \
         + "\nDetails:"
 
-
-
-    report += fileReport(fileName1, file1List, file1Unique)
-    report += fileReport(fileName2, file2List, file2Unique)
-    report += "\n\nDuplicate:\n\n" + prettyPrint(duplicate)
+    report += prettyPrint(unique)
 
     reportFile.write(report)
     reportFile.close()
 
-    results = file1Unique + file2Unique + duplicate
+    results = unique
     reportFile = open(reportFileNameClean, "w")
     reportFile.write(cleanPrint(results))
     reportFile.close()

@@ -1,0 +1,324 @@
+===================== processing the file south_tau3_0.txt =======================
+**  assumptions 28 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 28 premises 114
+** Reasoner time:0.03
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_1.txt =======================
+**  assumptions 32 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 32 premises 182
+** Reasoner time:0.06
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_2.txt =======================
+**  assumptions 16 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 16 premises 84
+** Reasoner time:0.01
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_3.txt =======================
+**  assumptions 44 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 44 premises 288
+** Reasoner time:0.12
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_4.txt =======================
+**  assumptions 8 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 8 premises 188
+** Reasoner time:0.05
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_5.txt =======================
+**  assumptions 248 premises 0
+** Reasoner time:0.19
+** Label computation time 0.0
+**  assumptions 248 premises 1436
+** Reasoner time:45.14
+** Label computation time 0.77
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = [[[nNS osOSGB2575 sm153481045] [nNS sm10522344 osOSGB3197]] [[nNS osOSGB2575 sm153481045] [nNS sm10522344 osOSGB3203]] [[nNS osOSGB2575 sm153481045] [nNS sm153481045 osOSGB2607]] [[nNS osOSGB2575 sm153481045] [nNS sm10522344 osOSGB3188]] [[nNS sm153481042 osOSGB2602] [nNS osOSGB2575 sm153481045]] [[nNS sm153481050 osOSGB2606] [nNS osOSGB2575 sm153481045]] [[nNS sm146618372 osOSGB2590] [nNS osOSGB2575 sm153481045]]]
+ns nogoods length = 7
+total nogood number is: 7
+===================== processing the file south_tau3_6.txt =======================
+**  assumptions 0 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 0 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_7.txt =======================
+**  assumptions 20 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 20 premises 72
+** Reasoner time:0.02
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = [[[nNS sm191972368 osOSGB2666] [nNS osOSGB2222 sm191972370]] [[nNS sm191972368 osOSGB2666] [nNS osOSGB2668 sm191972368]] [[nNS sm191972368 osOSGB2666] [nNS osOSGB2669 sm191972367]] [[nNS sm191972368 osOSGB2666] [nNS osOSGB2665 sm191972373]]]
+ns nogoods length = 4
+total nogood number is: 4
+===================== processing the file south_tau3_8.txt =======================
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 12 premises 166
+** Reasoner time:0.04
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_9.txt =======================
+**  assumptions 110 premises 0
+** Reasoner time:0.01
+** Label computation time 0.0
+**  assumptions 110 premises 2492
+** Reasoner time:142.42
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_10.txt =======================
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 12 premises 62
+** Reasoner time:0.01
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_11.txt =======================
+**  assumptions 24 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 24 premises 1524
+** Reasoner time:62.39
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_12.txt =======================
+**  assumptions 100 premises 0
+** Reasoner time:0.01
+** Label computation time 0.0
+**  assumptions 100 premises 482
+** Reasoner time:0.96
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_13.txt =======================
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 12 premises 158
+** Reasoner time:0.06
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_14.txt =======================
+**  assumptions 246 premises 0
+** Reasoner time:0.07
+** Label computation time 0.0
+**  assumptions 246 premises 1476
+** Reasoner time:22.05
+** Label computation time 3.56
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = [[[nNS osOSGB1794 sm171779229] [nNS sm171779229 osOSGB3060]] [[nNS osOSGB3060 sm171777503] [nNS sm171779229 osOSGB3060]] [[nNS osOSGB3055 sm171779228] [nNS sm171779229 osOSGB3060]] [[nNS osOSGB3016 sm171779229] [nNS sm171779229 osOSGB3060]] [[nNS osOSGB3002 sm171779229] [nNS sm171779229 osOSGB3060]] [[nNS osOSGB3055 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3061 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3065 sm171773757] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB1794 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3060 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3069 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3059 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3060 sm171777503] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3066 sm171773758] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3052 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3055 sm171779228] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3070 sm171777508] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3054 sm171779227] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3070 sm171775402] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3016 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3054 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3061 sm171777505] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3059 sm171777506] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3062 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3063 sm171773759] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3063 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3053 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3071 sm171775407] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3072 sm171775403] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3056 sm171778279] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3002 sm171779905] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3065 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3056 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3066 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3002 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3058 sm171777507] [nNS sm171779905 osOSGB3072]] [[nNS osOSGB3058 sm171779229] [nNS sm171779905 osOSGB3072]] [[nNS sm171779229 osOSGB3068] [nNS osOSGB3055 sm171779229]] [[nNS sm171779229 osOSGB3065] [nNS osOSGB3055 sm171779229]] [[nNS sm171779229 osOSGB3066] [nNS osOSGB3055 sm171779229]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3055 sm171779229]] [[nNS sm171779229 osOSGB3070] [nNS osOSGB3055 sm171779229]] [[nNS sm171779229 osOSGB3063] [nNS osOSGB3055 sm171779229]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3055 sm171779229]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3055 sm171779229]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3061 sm171779229]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3061 sm171779229]] [[nNS sm171779229 osOSGB3068] [nNS osOSGB3065 sm171773757]] [[nNS sm171779229 osOSGB3065] [nNS osOSGB3065 sm171773757]] [[nNS sm171779229 osOSGB3066] [nNS osOSGB3065 sm171773757]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3065 sm171773757]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3065 sm171773757]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3065 sm171773757]] [[nNS sm171779229 osOSGB3068] [nNS osOSGB1794 sm171779229]] [[nNS sm171779229 osOSGB3061] [nNS osOSGB1794 sm171779229]] [[nNS sm171779229 osOSGB3065] [nNS osOSGB1794 sm171779229]] [[nNS sm171779229 osOSGB3059] [nNS osOSGB1794 sm171779229]] [[nNS sm171779229 osOSGB3066] [nNS osOSGB1794 sm171779229]] [[nNS sm171779229 osOSGB3056] [nNS osOSGB1794 sm171779229]] [[nNS sm171779229 osOSGB3058] [nNS osOSGB1794 sm171779229]] [[nNS sm171779229 osOSGB3055] [nNS osOSGB1794 sm171779229]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB1794 sm171779229]] [[nNS sm171779229 osOSGB3070] [nNS osOSGB1794 sm171779229]] [[nNS sm171779229 osOSGB3063] [nNS osOSGB1794 sm171779229]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB1794 sm171779229]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB1794 sm171779229]] [[nNS sm171779229 osOSGB3062] [nNS osOSGB1794 sm171779229]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3060 sm171779229]] [[nNS sm171779229 osOSGB3070] [nNS osOSGB3060 sm171779229]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3060 sm171779229]] [[nNS osOSGB3060 sm171777503] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3066 sm171773758] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3052 sm171779229] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3055 sm171779228] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3068 sm171775406] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3070 sm171775402] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3016 sm171779229] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3054 sm171779229] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3061 sm171777505] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3059 sm171777506] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3063 sm171773759] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3053 sm171779229] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3071 sm171775407] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3072 sm171775403] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3056 sm171778279] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3056 sm171779229] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3002 sm171779229] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3058 sm171777507] [nNS sm171779229 osOSGB3068]] [[nNS osOSGB3058 sm171779229] [nNS sm171779229 osOSGB3068]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3059 sm171779229]] [[nNS sm171779229 osOSGB3070] [nNS osOSGB3059 sm171779229]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3059 sm171779229]] [[nNS sm171779229 osOSGB3065] [nNS osOSGB3060 sm171777503]] [[nNS sm171779229 osOSGB3066] [nNS osOSGB3060 sm171777503]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3060 sm171777503]] [[nNS sm171779229 osOSGB3070] [nNS osOSGB3060 sm171777503]] [[nNS sm171779229 osOSGB3063] [nNS osOSGB3060 sm171777503]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3060 sm171777503]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3060 sm171777503]] [[nNS sm171779229 osOSGB3066] [nNS osOSGB3066 sm171773758]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3066 sm171773758]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3066 sm171773758]] [[nNS sm171779229 osOSGB3065] [nNS osOSGB3052 sm171779229]] [[nNS sm171779229 osOSGB3066] [nNS osOSGB3052 sm171779229]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3052 sm171779229]] [[nNS sm171779229 osOSGB3070] [nNS osOSGB3052 sm171779229]] [[nNS sm171779229 osOSGB3063] [nNS osOSGB3052 sm171779229]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3052 sm171779229]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3052 sm171779229]] [[nNS sm171779229 osOSGB3062] [nNS osOSGB3052 sm171779229]] [[nNS sm171779229 osOSGB3061] [nNS osOSGB3055 sm171779228]] [[nNS sm171779229 osOSGB3065] [nNS osOSGB3055 sm171779228]] [[nNS sm171779229 osOSGB3066] [nNS osOSGB3055 sm171779228]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3055 sm171779228]] [[nNS sm171779229 osOSGB3070] [nNS osOSGB3055 sm171779228]] [[nNS sm171779229 osOSGB3063] [nNS osOSGB3055 sm171779228]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3055 sm171779228]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3055 sm171779228]] [[nNS sm171779229 osOSGB3062] [nNS osOSGB3055 sm171779228]] [[nNS sm171779229 osOSGB3070] [nNS osOSGB3070 sm171777508]] [[nNS osOSGB3016 sm171779229] [nNS sm171779229 osOSGB3061]] [[nNS osOSGB3061 sm171777505] [nNS sm171779229 osOSGB3061]] [[nNS osOSGB3056 sm171778279] [nNS sm171779229 osOSGB3061]] [[nNS osOSGB3002 sm171779229] [nNS sm171779229 osOSGB3061]] [[nNS osOSGB3002 sm171779229] [nNS sm171779229 osOSGB3053]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3068 sm171775406]] [[nNS sm171779229 osOSGB3065] [nNS osOSGB3070 sm171775402]] [[nNS sm171779229 osOSGB3066] [nNS osOSGB3070 sm171775402]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3070 sm171775402]] [[nNS sm171779229 osOSGB3070] [nNS osOSGB3070 sm171775402]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3070 sm171775402]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3070 sm171775402]] [[nNS sm171779229 osOSGB3065] [nNS osOSGB3016 sm171779229]] [[nNS sm171779229 osOSGB3066] [nNS osOSGB3016 sm171779229]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3016 sm171779229]] [[nNS sm171779229 osOSGB3070] [nNS osOSGB3016 sm171779229]] [[nNS sm171779229 osOSGB3063] [nNS osOSGB3016 sm171779229]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3016 sm171779229]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3016 sm171779229]] [[nNS sm171779229 osOSGB3062] [nNS osOSGB3016 sm171779229]] [[nNS sm171779229 osOSGB3065] [nNS osOSGB3054 sm171779229]] [[nNS sm171779229 osOSGB3066] [nNS osOSGB3054 sm171779229]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3054 sm171779229]] [[nNS sm171779229 osOSGB3070] [nNS osOSGB3054 sm171779229]] [[nNS sm171779229 osOSGB3063] [nNS osOSGB3054 sm171779229]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3054 sm171779229]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3054 sm171779229]] [[nNS osOSGB3059 sm171777506] [nNS sm171779229 osOSGB3065]] [[nNS osOSGB3063 sm171773759] [nNS sm171779229 osOSGB3065]] [[nNS osOSGB3053 sm171779229] [nNS sm171779229 osOSGB3065]] [[nNS osOSGB3056 sm171778279] [nNS sm171779229 osOSGB3065]] [[nNS osOSGB3002 sm171779229] [nNS sm171779229 osOSGB3065]] [[nNS osOSGB3058 sm171777507] [nNS sm171779229 osOSGB3065]] [[nNS sm171779229 osOSGB3066] [nNS osOSGB3061 sm171777505]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3061 sm171777505]] [[nNS sm171779229 osOSGB3070] [nNS osOSGB3061 sm171777505]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3061 sm171777505]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3061 sm171777505]] [[nNS osOSGB3002 sm171779229] [nNS sm171779229 osOSGB3059]] [[nNS osOSGB3059 sm171777506] [nNS sm171779229 osOSGB3066]] [[nNS osOSGB3063 sm171773759] [nNS sm171779229 osOSGB3066]] [[nNS osOSGB3053 sm171779229] [nNS sm171779229 osOSGB3066]] [[nNS osOSGB3071 sm171775407] [nNS sm171779229 osOSGB3066]] [[nNS osOSGB3056 sm171778279] [nNS sm171779229 osOSGB3066]] [[nNS osOSGB3056 sm171779229] [nNS sm171779229 osOSGB3066]] [[nNS osOSGB3002 sm171779229] [nNS sm171779229 osOSGB3066]] [[nNS osOSGB3058 sm171777507] [nNS sm171779229 osOSGB3066]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3059 sm171777506]] [[nNS sm171779229 osOSGB3070] [nNS osOSGB3059 sm171777506]] [[nNS sm171779229 osOSGB3063] [nNS osOSGB3059 sm171777506]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3059 sm171777506]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3059 sm171777506]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3062 sm171779229]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3063 sm171773759]] [[nNS sm171779229 osOSGB3070] [nNS osOSGB3063 sm171773759]] [[nNS sm171779229 osOSGB3063] [nNS osOSGB3063 sm171773759]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3063 sm171773759]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3063 sm171773759]] [[nNS osOSGB3002 sm171779229] [nNS sm171779229 osOSGB3056]] [[nNS osOSGB3002 sm171779229] [nNS sm171779229 osOSGB3058]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3053 sm171779229]] [[nNS sm171779229 osOSGB3070] [nNS osOSGB3053 sm171779229]] [[nNS sm171779229 osOSGB3063] [nNS osOSGB3053 sm171779229]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3053 sm171779229]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3053 sm171779229]] [[nNS sm171779229 osOSGB3062] [nNS osOSGB3053 sm171779229]] [[nNS osOSGB3002 sm171779229] [nNS sm171779229 osOSGB3055]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3071 sm171775407]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3071 sm171775407]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3071 sm171775407]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3072 sm171775403]] [[nNS sm171779229 osOSGB3072] [nNS osOSGB3056 sm171778279]] [[nNS sm171779229 osOSGB3070] [nNS osOSGB3056 sm171778279]] [[nNS sm171779229 osOSGB3063] [nNS osOSGB3056 sm171778279]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3056 sm171778279]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3056 sm171778279]] [[nNS sm171779229 osOSGB3062] [nNS osOSGB3056 sm171778279]] [[nNS osOSGB3056 sm171779229] [nNS sm171779229 osOSGB3072]] [[nNS osOSGB3002 sm171779229] [nNS sm171779229 osOSGB3072]] [[nNS osOSGB3058 sm171777507] [nNS sm171779229 osOSGB3072]] [[nNS osOSGB3058 sm171779229] [nNS sm171779229 osOSGB3072]] [[nNS osOSGB3002 sm171779229] [nNS sm171779229 osOSGB3054]] [[nNS osOSGB3056 sm171779229] [nNS sm171779229 osOSGB3070]] [[nNS osOSGB3002 sm171779229] [nNS sm171779229 osOSGB3070]] [[nNS osOSGB3058 sm171777507] [nNS sm171779229 osOSGB3070]] [[nNS osOSGB3058 sm171779229] [nNS sm171779229 osOSGB3070]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3056 sm171779229]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3056 sm171779229]] [[nNS osOSGB3002 sm171779229] [nNS sm171779229 osOSGB3063]] [[nNS osOSGB3058 sm171777507] [nNS sm171779229 osOSGB3063]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3002 sm171779229]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3002 sm171779229]] [[nNS sm171779229 osOSGB3062] [nNS osOSGB3002 sm171779229]] [[nNS sm171779229 osOSGB3071] [nNS osOSGB3058 sm171777507]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3058 sm171777507]] [[nNS sm171779229 osOSGB3062] [nNS osOSGB3058 sm171777507]] [[nNS osOSGB3058 sm171779229] [nNS sm171779229 osOSGB3071]] [[nNS sm171779229 osOSGB3069] [nNS osOSGB3058 sm171779229]]]
+ns nogoods length = 218
+total nogood number is: 218
+===================== processing the file south_tau3_15.txt =======================
+**  assumptions 22 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 22 premises 32
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_16.txt =======================
+**  assumptions 8 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 8 premises 362
+** Reasoner time:0.23
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_17.txt =======================
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 4 premises 14
+** Reasoner time:0.01
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_18.txt =======================
+**  assumptions 58 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 58 premises 224
+** Reasoner time:0.09
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_19.txt =======================
+**  assumptions 8 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 8 premises 60
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_20.txt =======================
+**  assumptions 20 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 20 premises 1344
+** Reasoner time:43.55
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_21.txt =======================
+**  assumptions 0 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 0 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_22.txt =======================
+**  assumptions 26 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 26 premises 3918
+** Reasoner time:1467.55
+** Label computation time 0.62
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = [[[nNS sm142891444 osOSGB2656] [nNS osOSGB4343 sm10522700]] [[nNS sm10522700 osOSGB2656] [nNS osOSGB4343 sm10522700]] [[nNS osOSGB2656 sm10522700] [nNS sm142891444 osOSGB2656]]]
+ns nogoods length = 3
+total nogood number is: 3
+===================== processing the file south_tau3_23.txt =======================
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 12 premises 22
+** Reasoner time:0.01
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_24.txt =======================
+**  assumptions 28 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 28 premises 266
+** Reasoner time:0.15
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_25.txt =======================
+**  assumptions 24 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 24 premises 222
+** Reasoner time:0.07
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_tau3_26.txt =======================
+**  assumptions 8 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 8 premises 184
+** Reasoner time:0.09
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0

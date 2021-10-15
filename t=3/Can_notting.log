@@ -1,0 +1,30 @@
+===================== processing the file nott_tau3_0.txt =======================
+**  assumptions 24 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 24 premises 2100
+** Reasoner time:55.1
+** Label computation time 0.01
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_tau3_1.txt =======================
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 12 premises 216
+** Reasoner time:0.05
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_tau3_2.txt =======================
+**  assumptions 1362 premises 0
+** Reasoner time:33.24
+** Label computation time 0.0
+**  assumptions 1362 premises 6662
+** Reasoner time:56822.17
