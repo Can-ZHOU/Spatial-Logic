@@ -235,7 +235,7 @@ define :ruleset ns_ld_ruleset;
 	RULE NS_axiom_5_2_2
 	[dN ?B ?A] [->> a1]
 	[WHERE some_in_db_p([^a1], trigger_db)]
-    [LVARS [consequent = add_new_formula([dS ^a ^b])]]
+    [LVARS [consequent = add_new_formula([dS ^A ^B])]]
     ==>
 	[SAYIF ld 'NS_axiom_5_2_2 Justifying datum' ?consequent ?a1]
 	[ATMS_JUSTIFY ?consequent [?a1]]

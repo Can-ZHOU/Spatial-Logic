@@ -340,6 +340,7 @@ define ld_run(assumptions, premises, dimension_ruleset) -> no_goods;
 
     ;;; Build the labels
     atms_lazy_node_label([ ^atms_falsity ]);
+    printf('atms_falsity = %p\n', [ ^atms_falsity ]);
     timediff() -> cpu_time;
     'Label computation time '>< cpu_time =>
     printable_atms_nogoods() -> no_goods;
@@ -525,7 +526,7 @@ define run_reasoner(poparglist);
     endif;
 enddefine;
 
-vars poparglist = ['south_0.txt' 'south_1.txt' 'south_2.txt' 'south_3.txt' 'south_4.txt' 'south_5.txt' 'south_6.txt' 'south_7.txt' 'south_8.txt' 'south_9.txt' 'south_10.txt' 'south_11.txt' 'south_12.txt' 'south_13.txt' 'south_14.txt' 'south_15.txt' 'south_16.txt' 'south_17.txt' 'south_18.txt' 'south_19.txt' 'south_20.txt' 'south_21.txt' 'south_22.txt' 'south_23.txt' 'south_24.txt' 'south_25.txt' 'south_26.txt'];
+vars poparglist = ['south_7.txt'];
 
 run_reasoner(poparglist);
 
