@@ -1,0 +1,324 @@
+===================== processing the file south_0_ew.txt =======================
+**  assumptions 14 premises 114
+** Reasoner time:0.01
+** Label computation time 0.0
+**  assumptions 14 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_1_ew.txt =======================
+**  assumptions 16 premises 182
+** Reasoner time:0.02
+** Label computation time 0.0
+**  assumptions 16 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_2_ew.txt =======================
+**  assumptions 8 premises 84
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 8 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_3_ew.txt =======================
+**  assumptions 22 premises 288
+** Reasoner time:0.08
+** Label computation time 0.0
+**  assumptions 22 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_4_ew.txt =======================
+**  assumptions 4 premises 188
+** Reasoner time:0.05
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_5_ew.txt =======================
+**  assumptions 124 premises 1436
+** Reasoner time:15.6
+** Label computation time 0.0
+**  assumptions 124 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_6_ew.txt =======================
+**  assumptions 0 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 0 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_7_ew.txt =======================
+**  assumptions 10 premises 72
+** Reasoner time:0.01
+** Label computation time 0.0
+**  assumptions 10 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_8_ew.txt =======================
+**  assumptions 6 premises 166
+** Reasoner time:0.02
+** Label computation time 0.0
+**  assumptions 6 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_9_ew.txt =======================
+**  assumptions 55 premises 2492
+** Reasoner time:56.41
+** Label computation time 0.01
+**  assumptions 55 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_10_ew.txt =======================
+**  assumptions 6 premises 62
+** Reasoner time:0.01
+** Label computation time 0.0
+**  assumptions 6 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_11_ew.txt =======================
+**  assumptions 12 premises 1524
+** Reasoner time:9.66
+** Label computation time 0.0
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_12_ew.txt =======================
+**  assumptions 50 premises 482
+** Reasoner time:0.62
+** Label computation time 0.0
+**  assumptions 50 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_13_ew.txt =======================
+**  assumptions 6 premises 158
+** Reasoner time:0.03
+** Label computation time 0.0
+**  assumptions 6 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_14_ew.txt =======================
+**  assumptions 123 premises 1476
+** Reasoner time:4.46
+** Label computation time 0.0
+**  assumptions 123 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_15_ew.txt =======================
+**  assumptions 11 premises 32
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 11 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_16_ew.txt =======================
+**  assumptions 4 premises 362
+** Reasoner time:0.12
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_17_ew.txt =======================
+**  assumptions 2 premises 14
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 2 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_18_ew.txt =======================
+**  assumptions 29 premises 224
+** Reasoner time:0.05
+** Label computation time 0.0
+**  assumptions 29 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_19_ew.txt =======================
+**  assumptions 4 premises 60
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_20_ew.txt =======================
+**  assumptions 10 premises 1344
+** Reasoner time:5.38
+** Label computation time 0.0
+**  assumptions 10 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_21_ew.txt =======================
+**  assumptions 0 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 0 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_22_ew.txt =======================
+**  assumptions 13 premises 3918
+** Reasoner time:194.61
+** Label computation time 0.0
+**  assumptions 13 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_23_ew.txt =======================
+**  assumptions 6 premises 22
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 6 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_24_ew.txt =======================
+**  assumptions 14 premises 266
+** Reasoner time:0.1
+** Label computation time 0.0
+**  assumptions 14 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_25_ew.txt =======================
+**  assumptions 12 premises 222
+** Reasoner time:0.07
+** Label computation time 0.0
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_26_ew.txt =======================
+**  assumptions 4 premises 184
+** Reasoner time:0.05
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0

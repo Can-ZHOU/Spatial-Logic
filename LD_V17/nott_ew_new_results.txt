@@ -1,0 +1,180 @@
+===================== processing the file nott_0_ew.txt =======================
+**  assumptions 12 premises 2100
+** Reasoner time:21.34
+** Label computation time 0.0
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_1_ew.txt =======================
+**  assumptions 6 premises 216
+** Reasoner time:0.09
+** Label computation time 0.0
+**  assumptions 6 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_2_ew.txt =======================
+**  assumptions 681 premises 6662
+** Reasoner time:1091.14
+** Label computation time 0.0
+**  assumptions 681 premises 0
+** Reasoner time:0.02
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_3_ew.txt =======================
+**  assumptions 59 premises 7016
+** Reasoner time:1275.23
+** Label computation time 0.01
+**  assumptions 59 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_4_ew.txt =======================
+**  assumptions 6 premises 936
+** Reasoner time:2.31
+** Label computation time 0.0
+**  assumptions 6 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_5_ew.txt =======================
+**  assumptions 4 premises 704
+** Reasoner time:2.32
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_6_ew.txt =======================
+**  assumptions 4 premises 92
+** Reasoner time:0.01
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_7_ew.txt =======================
+**  assumptions 6 premises 246
+** Reasoner time:0.15
+** Label computation time 0.0
+**  assumptions 6 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_8_ew.txt =======================
+**  assumptions 4 premises 78
+** Reasoner time:0.01
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_9_ew.txt =======================
+**  assumptions 4 premises 112
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_10_ew.txt =======================
+**  assumptions 32 premises 2892
+** Reasoner time:38.57
+** Label computation time 0.0
+**  assumptions 32 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_11_ew.txt =======================
+**  assumptions 38 premises 74
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 38 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_12_ew.txt =======================
+**  assumptions 2 premises 344
+** Reasoner time:0.24
+** Label computation time 0.0
+**  assumptions 2 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_13_ew.txt =======================
+**  assumptions 2 premises 48
+** Reasoner time:0.0
+** Label computation time 0.0
+**  assumptions 2 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_14_ew.txt =======================
+**  assumptions 4 premises 134
+** Reasoner time:0.04
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
