@@ -525,9 +525,8 @@ define run_reasoner(poparglist);
     endif;
 enddefine;
 
-vars poparglist = ['nott_14_ew.txt'];
-;;; vars poparglist = ['nott_0.txt' 'nott_1.txt' 'nott_2.txt' 'nott_3.txt' 'nott_4.txt' 'nott_5.txt' 'nott_6.txt' 'nott_7.txt' 'nott_8.txt' 'nott_9.txt' 'nott_10.txt' 'nott_11.txt' 'nott_12.txt' 'nott_13.txt' 'nott_14'];
-;;; vars poparglist = ['south_0_ew.txt' 'south_1_ew.txt' 'south_2_ew.txt' 'south_3_ew.txt' 'south_4_ew.txt' 'south_5_ew.txt' 'south_6_ew.txt' 'south_7_ew.txt' 'south_8_ew.txt' 'south_9_ew.txt' 'south_10_ew.txt' 'south_11_ew.txt' 'south_12_ew.txt' 'south_13_ew.txt' 'south_14_ew.txt' 'south_15_ew.txt' 'south_16_ew.txt' 'south_17_ew.txt' 'south_18_ew.txt' 'south_19_ew.txt' 'south_20_ew.txt' 'south_21_ew.txt' 'south_22_ew.txt' 'south_23_ew.txt' 'south_24_ew.txt' 'south_25_ew.txt' 'south_26_ew.txt'];
+;;; vars poparglist = ['nott_0.txt' 'nott_1.txt' 'nott_2.txt' 'nott_3.txt' 'nott_4.txt' 'nott_5.txt' 'nott_6.txt' 'nott_7.txt' 'nott_8.txt' 'nott_9.txt' 'nott_10.txt' 'nott_11.txt' 'nott_12.txt' 'nott_13.txt' 'nott_14.txt'];
+vars poparglist = ['nott_0_ew.txt' 'nott_1_ew.txt' 'nott_2_ew.txt' 'nott_3_ew.txt' 'nott_4_ew.txt' 'nott_5_ew.txt' 'nott_6_ew.txt' 'nott_7_ew.txt' 'nott_8_ew.txt' 'nott_9_ew.txt' 'nott_10_ew.txt' 'nott_11_ew.txt' 'nott_12_ew.txt' 'nott_13_ew.txt' 'nott_14_ew.txt'];
 
 
 run_reasoner(poparglist);

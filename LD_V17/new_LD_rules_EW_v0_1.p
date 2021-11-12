@@ -118,6 +118,14 @@ define :ruleset ew_ld_ruleset;
 	[ATMS_JUSTIFY [?consequent1 ?consequent2] ?a1]
 */
 
+	RULE EW_definitions
+	[nEW ?A ?B] [->> a1]
+	[WHERE some_in_db_p([^a1], trigger_db)]
+    [LVARS [consequent = add_new_formula([nEW ^B ^A])]]
+    ==>
+	[SAYIF ld 'EW_definitions Justifying datum' ?consequent ?a1]
+	[ATMS_JUSTIFY ?consequent [?a1]]
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	RULE EW_axiom_1
 	[W ?A ?A] [->> a1]
