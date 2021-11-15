@@ -118,7 +118,21 @@ define :ruleset ns_ld_ruleset;
 	[ATMS_JUSTIFY [?consequent1 ?consequent2] ?a1]
 */
 
+	RULE NS_definition01
+	[nNS ?A ?B] [->> a1]
+	[WHERE some_in_db_p([^a1], trigger_db)]
+    [LVARS [consequent = add_new_formula([nNS ^B ^A])]]
+    ==>
+	[SAYIF ld 'NS_definition01 Justifying datum' ?consequent ?a1]
+	[ATMS_JUSTIFY ?consequent [?a1]]
 
+	RULE NS_definition02
+	[nN ?A ?B] [->> a1]
+	[WHERE some_in_db_p([^a1], trigger_db)]
+    [LVARS [consequent = add_new_formula([nN ^B ^A])]]
+    ==>
+	[SAYIF ld 'NS_definition02 Justifying datum' ?consequent ?a1]
+	[ATMS_JUSTIFY ?consequent [?a1]]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	RULE NS_axiom_1
@@ -179,14 +193,12 @@ define :ruleset ns_ld_ruleset;
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	RULE NS_axiom_5_1
-	[S ?A ?B] [->> a1]
-	[S ?B ?C] [->> a2]
-	[S ?C ?D] [->> a3]
-	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
-    [LVARS [consequent = add_new_formula([dS ^A ^D])]]
+	[dS ?A ?B] [->> a1]
+	[WHERE some_in_db_p([^a1], trigger_db)]
+    [LVARS [consequent = add_new_formula([S ^A ^B])]]
     ==>
-	[SAYIF ld 'NS_axiom_5_1 Justifying datum' ?consequent ?a1 ?a2 ?a3]
-	[ATMS_JUSTIFY ?consequent [?a1 ?a2 ?a3]]
+	[SAYIF ld 'NS_axiom_5_1 Justifying datum' ?consequent ?a1]
+	[ATMS_JUSTIFY ?consequent [?a1]]
 
 	RULE NS_axiom_5_2
 	[S ?A ?B] [->> a1]
@@ -198,30 +210,14 @@ define :ruleset ns_ld_ruleset;
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2]]
 
 	RULE NS_axiom_5_3
-	[dS ?A ?B] [->> a1]
-	[S ?B ?C] [->> a2]
-	[WHERE some_in_db_p([^a1 ^a2], trigger_db)]
-    [LVARS [consequent = add_new_formula([dS ^A ^C])]]
-    ==>
-	[SAYIF ld 'NS_axiom_5_3 Justifying datum' ?consequent ?a1 ?a2]
-	[ATMS_JUSTIFY ?consequent [?a1 ?a2]]
-
-	RULE NS_axiom_5_4
 	[S ?A ?B] [->> a1]
-	[dS ?B ?C] [->> a2]
-	[WHERE some_in_db_p([^a1 ^a2], trigger_db)]
-    [LVARS [consequent = add_new_formula([dS ^A ^C])]]
-    ==>
-	[SAYIF ld 'NS_axiom_5_4 Justifying datum' ?consequent ?a1 ?a2]
-	[ATMS_JUSTIFY ?consequent [?a1 ?a2]]
-
-	RULE NS_axiom_5_5
-	[dS ?A ?B] [->> a1]
-	[WHERE some_in_db_p([^a1], trigger_db)]
-    [LVARS [consequent = add_new_formula([S ^A ^B])]]
-    ==>
-	[SAYIF ld 'NS_axiom_5_5 Justifying datum' ?consequent ?a1]
-	[ATMS_JUSTIFY ?consequent [?a1]]
+	[S ?B ?C] [->> a2]
+	[S ?C ?D] [->> a3]
+	[Ins ?D ?A] [->> a4]
+	[WHERE some_in_db_p([^a1 ^a2 ^a3 ^a4], trigger_db)]
+	==>
+    [SAYIF ld 'NS_axiom_5_3 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
+	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -1,0 +1,18 @@
+===================== processing the file south_7.txt =======================
+**  assumptions 10 premises 0
+** Reasoner time:0.0
+atms_falsity = < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 10 premises 72
+** Reasoner time:0.01
+atms_falsity = < atms_node: falsity []
+     justifications [<atms_justif: [[nNS sm191972368 osOSGB2666] [dS osOSGB2666 osOSGB2668] [nNS osOSGB2668 sm191972368]]> <atms_justif: [[S osOSGB2666 osOSGB2669] [nNS osOSGB2669 sm191972367] [S sm191972367 sm191972368] [nNS sm191972368 osOSGB2666]]> <atms_justif: [[S sm191972373 sm191972368] [nNS sm191972368 osOSGB2666] [S osOSGB2666 osOSGB2665] [nNS osOSGB2665 sm191972373]]> <atms_justif: [[S sm191972367 sm191972368] [nNS sm191972368 osOSGB2666] [S osOSGB2666 osOSGB2669] [nNS osOSGB2669 sm191972367]]> <atms_justif: [[S osOSGB2666 osOSGB2665] [nNS osOSGB2665 sm191972373] [S sm191972373 sm191972368] [nNS sm191972368 osOSGB2666]]>]
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = [[[nNS osOSGB2666 sm191972368] [nNS osOSGB2668 sm191972368]] [[nNS osOSGB2666 sm191972368] [nNS osOSGB2669 sm191972367]] [[nNS osOSGB2665 sm191972373] [nNS osOSGB2666 sm191972368]]]
+ns nogoods length = 3
+total nogood number is: 3
