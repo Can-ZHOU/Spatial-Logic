@@ -251,7 +251,7 @@ define :ruleset ns_ld_ruleset;
     RULE NS_axiom_5_3
 	[S ?A ?B] [->> a1]
 	[S ?B ?C][->> a2]
-	[Ins ?C ?A]
+	[Ins ?C ?A] [->> a3]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
 	==>
     [SAYIF ld 'NS_axiom_5_3 Inconsistent data' ?a1 ?a2 ?a3]

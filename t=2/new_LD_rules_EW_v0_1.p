@@ -253,7 +253,7 @@ define :ruleset ew_ld_ruleset;
     RULE EW_axiom_5_3
 	[W ?A ?B] [->> a1]
 	[W ?B ?C][->> a2]
-	[Iew ?C ?A]
+	[Iew ?C ?A] [->> a3]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
 	==>
     [SAYIF ld 'EW_axiom_5_3 Inconsistent data' ?a1 ?a2 ?a3]

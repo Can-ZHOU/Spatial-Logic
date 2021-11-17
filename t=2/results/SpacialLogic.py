@@ -1,8 +1,8 @@
 import os
 from subprocess import Popen
 
-path = "results/"
-os.makedirs(path, exist_ok=True)
+path = ""
+# os.makedirs(path, exist_ok=True)
 
 # ################################################################################################################
 # get and save all the results
@@ -121,14 +121,14 @@ def analysisClean(fileName1, fileName2, reportFileName, reportFileNameClean):
     reportFile.close()
 
 
-fileName1 = path + "south_ns.txt"
-fileName2 = path + "south_ew.txt"
-reportFileName = path + "analysis_report_south_t-2.txt"
+fileName1 = path + "results_south_ns.txt"
+fileName2 = path + "results_south_ew.txt"
+reportFileName = path + "analysis_report_south_t-3.txt"
 reportFileNameClean = path + "south_LD.txt"
 analysisClean(fileName1, fileName2, reportFileName, reportFileNameClean)
 
-fileName1 = path + "nott_ns.txt"
-fileName2 = path + "nott_ew.txt"
-reportFileName = path + "analysis_report_nott_t-2.txt"
+fileName1 = path + "results_nott_ns.txt"
+fileName2 = path + "results_nott_ew.txt"
+reportFileName = path + "analysis_report_nott_t-3.txt"
 reportFileNameClean = path + "nott_LD.txt"
 analysisClean(fileName1, fileName2, reportFileName, reportFileNameClean)
