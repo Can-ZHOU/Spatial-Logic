@@ -340,6 +340,7 @@ define ld_run(assumptions, premises, dimension_ruleset) -> no_goods;
 
     ;;; Build the labels
     atms_lazy_node_label([ ^atms_falsity ]);
+    printf('justification: %p\n', [ ^atms_falsity ]);
     timediff() -> cpu_time;
     'Label computation time '>< cpu_time =>
     printable_atms_nogoods() -> no_goods;

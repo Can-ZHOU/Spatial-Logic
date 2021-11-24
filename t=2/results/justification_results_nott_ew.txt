@@ -1,0 +1,270 @@
+===================== processing the file nott_0_ew.txt =======================
+**  assumptions 12 premises 2100
+** Reasoner time:53.18
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_1_ew.txt =======================
+**  assumptions 6 premises 216
+** Reasoner time:0.05
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 6 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_2_ew.txt =======================
+**  assumptions 681 premises 6662
+** Reasoner time:2494.5
+justification: < atms_node: falsity []
+     justifications [<atms_justif: [[W os1000023066597 os1000023066566] [nEW os1000023066566 sm116816366] [W sm116816366 sm16469518] [nEW sm16469518 os1000023066597]]> <atms_justif: [[W os1000023066639 os1000023066566] [nEW os1000023066566 sm116816366] [W sm116816366 sm16469518] [nEW sm16469518 os1000023066639]]> <atms_justif: [[W os1000023066602 os1000023066581] [nEW os1000023066581 sm116816377] [W sm116816377 sm16469518] [nEW sm16469518 os1000023066602]]> <atms_justif: [[W sm116816366 sm16469518] [nEW sm16469518 os1000023066577] [W os1000023066577 os1000023066566] [nEW os1000023066566 sm116816366]]> <atms_justif: [[W sm116816366 sm16469518] [nEW sm16469518 os1000023066639] [W os1000023066639 os1000023066566] [nEW os1000023066566 sm116816366]]> <atms_justif: [[W sm116816366 sm16469518] [nEW sm16469518 os1000023066588] [W os1000023066588 os1000023066566] [nEW os1000023066566 sm116816366]]> <atms_justif: [[W sm116816366 sm16469518] [nEW sm16469518 os1000023066602] [W os1000023066602 os1000023066566] [nEW os1000023066566 sm116816366]]> <atms_justif: [[W sm116816366 sm16469518] [nEW sm16469518 os1000023066986] [W os1000023066986 os1000023066566] [nEW os1000023066566 sm116816366]]> <atms_justif: [[W sm116816366 sm16469518] [nEW sm16469518 os1000023066615] [W os1000023066615 os1000023066566] [nEW os1000023066566 sm116816366]]> <atms_justif: [[W sm116816366 sm16469518] [nEW sm16469518 os1000023066569] [W os1000023066569 os1000023066566] [nEW os1000023066566 sm116816366]]> <atms_justif: [[W sm116816366 sm16469518] [nEW sm16469518 os1000023066597] [W os1000023066597 os1000023066566] [nEW os1000023066566 sm116816366]]> <atms_justif: [[W sm116816366 sm16469518] [nEW sm16469518 os1000023066604] [W os1000023066604 os1000023066566] [nEW os1000023066566 sm116816366]]> <atms_justif: [[W sm116816366 sm16469518] [nEW sm16469518 os1000023066578] [W os1000023066578 os1000023066566] [nEW os1000023066566 sm116816366]]> <atms_justif: [[W sm116816366 sm16469518] [nEW sm16469518 os1000023066576] [W os1000023066576 os1000023066566] [nEW os1000023066566 sm116816366]]> <atms_justif: [[W sm116816366 sm16469518] [nEW sm16469518 os1000023066629] [W os1000023066629 os1000023066566] [nEW os1000023066566 sm116816366]]> <atms_justif: [[W sm116816377 sm16469518] [nEW sm16469518 os1000023066602] [W os1000023066602 os1000023066581] [nEW os1000023066581 sm116816377]]> <atms_justif: [[W os1000023066629 os1000023066566] [nEW os1000023066566 sm116816366] [W sm116816366 sm16469518] [nEW sm16469518 os1000023066629]]> <atms_justif: [[W os1000023066986 os1000023066566] [nEW os1000023066566 sm116816366] [W sm116816366 sm16469518] [nEW sm16469518 os1000023066986]]> <atms_justif: [[W os1000023066588 os1000023066566] [nEW os1000023066566 sm116816366] [W sm116816366 sm16469518] [nEW sm16469518 os1000023066588]]> <atms_justif: [[W os1000023066615 os1000023066566] [nEW os1000023066566 sm116816366] [W sm116816366 sm16469518] [nEW sm16469518 os1000023066615]]> <atms_justif: [[W os1000023066578 os1000023066566] [nEW os1000023066566 sm116816366] [W sm116816366 sm16469518] [nEW sm16469518 os1000023066578]]> <atms_justif: [[W os1000023066577 os1000023066566] [nEW os1000023066566 sm116816366] [W sm116816366 sm16469518] [nEW sm16469518 os1000023066577]]> <atms_justif: [[W os1000023066576 os1000023066566] [nEW os1000023066566 sm116816366] [W sm116816366 sm16469518] [nEW sm16469518 os1000023066576]]> <atms_justif: [[W os1000023066604 os1000023066566] [nEW os1000023066566 sm116816366] [W sm116816366 sm16469518] [nEW sm16469518 os1000023066604]]> <atms_justif: [[W os1000023066602 os1000023066566] [nEW os1000023066566 sm116816366] [W sm116816366 sm16469518] [nEW sm16469518 os1000023066602]]> <atms_justif: [[W os1000023066569 os1000023066566] [nEW os1000023066566 sm116816366] [W sm116816366 sm16469518] [nEW sm16469518 os1000023066569]]> <atms_justif: [[nEW sm16469518 os1000023066577] [dW os1000023066577 os1000023066615] [nEW os1000023066615 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066577] [dW os1000023066577 os1000023066629] [nEW os1000023066629 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066577] [dW os1000023066577 os1000023066642] [nEW os1000023066642 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066577] [dW os1000023066577 os1000023066639] [nEW os1000023066639 sm16469518]]> <atms_justif: [[nEW sm116816366 os1000023066582] [dW os1000023066582 os1000023066566] [nEW os1000023066566 sm116816366]]> <atms_justif: [[nEW sm16469518 os1000023066588] [dW os1000023066588 os1000023066629] [nEW os1000023066629 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066588] [dW os1000023066588 os1000023066615] [nEW os1000023066615 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066588] [dW os1000023066588 os1000023066576] [nEW os1000023066576 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066588] [dW os1000023066588 os1000023066569] [nEW os1000023066569 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066588] [dW os1000023066588 os1000023066642] [nEW os1000023066642 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066588] [dW os1000023066588 os1000023066639] [nEW os1000023066639 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066602] [dW os1000023066602 os1000023066604] [nEW os1000023066604 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066602] [dW os1000023066602 os1000023066576] [nEW os1000023066576 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066602] [dW os1000023066602 os1000023066578] [nEW os1000023066578 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066602] [dW os1000023066602 os1000023066615] [nEW os1000023066615 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066602] [dW os1000023066602 os1000023066986] [nEW os1000023066986 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066602] [dW os1000023066602 os1000023066629] [nEW os1000023066629 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066602] [dW os1000023066602 os1000023066569] [nEW os1000023066569 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066602] [dW os1000023066602 os1000023066642] [nEW os1000023066642 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066602] [dW os1000023066602 os1000023066639] [nEW os1000023066639 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066986] [dW os1000023066986 os1000023066629] [nEW os1000023066629 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066986] [dW os1000023066986 os1000023066615] [nEW os1000023066615 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066986] [dW os1000023066986 os1000023066642] [nEW os1000023066642 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066986] [dW os1000023066986 os1000023066639] [nEW os1000023066639 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066569] [dW os1000023066569 os1000023066642] [nEW os1000023066642 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066597] [dW os1000023066597 os1000023066639] [nEW os1000023066639 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066597] [dW os1000023066597 os1000023066642] [nEW os1000023066642 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066597] [dW os1000023066597 os1000023066569] [nEW os1000023066569 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066597] [dW os1000023066597 os1000023066576] [nEW os1000023066576 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066597] [dW os1000023066597 os1000023066615] [nEW os1000023066615 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066597] [dW os1000023066597 os1000023066629] [nEW os1000023066629 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066604] [dW os1000023066604 os1000023066629] [nEW os1000023066629 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066604] [dW os1000023066604 os1000023066642] [nEW os1000023066642 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066604] [dW os1000023066604 os1000023066639] [nEW os1000023066639 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066578] [dW os1000023066578 os1000023066629] [nEW os1000023066629 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066578] [dW os1000023066578 os1000023066642] [nEW os1000023066642 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066578] [dW os1000023066578 os1000023066639] [nEW os1000023066639 sm16469518]]> <atms_justif: [[nEW sm16469518 os1000023066576] [dW os1000023066576 os1000023066642] [nEW os1000023066642 sm16469518]]>]
+    justifies [] >
+** Label computation time 0.26
+**  assumptions 681 premises 0
+** Reasoner time:0.22
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = [[[nEW os1000023066578 sm16469518] [nEW os1000023066629 sm16469518]] [[nEW os1000023066604 sm16469518] [nEW os1000023066629 sm16469518]] [[nEW os1000023066566 sm116816366] [nEW os1000023066629 sm16469518]] [[nEW os1000023066597 sm16469518] [nEW os1000023066629 sm16469518]] [[nEW os1000023066986 sm16469518] [nEW os1000023066629 sm16469518]] [[nEW os1000023066602 sm16469518] [nEW os1000023066629 sm16469518]] [[nEW os1000023066588 sm16469518] [nEW os1000023066629 sm16469518]] [[nEW os1000023066577 sm16469518] [nEW os1000023066629 sm16469518]] [[nEW os1000023066566 sm116816366] [nEW os1000023066576 sm16469518]] [[nEW os1000023066597 sm16469518] [nEW os1000023066576 sm16469518]] [[nEW os1000023066602 sm16469518] [nEW os1000023066576 sm16469518]] [[nEW os1000023066588 sm16469518] [nEW os1000023066576 sm16469518]] [[nEW os1000023066642 sm16469518] [nEW os1000023066576 sm16469518]] [[nEW os1000023066566 sm116816366] [nEW os1000023066578 sm16469518]] [[nEW os1000023066602 sm16469518] [nEW os1000023066578 sm16469518]] [[nEW os1000023066642 sm16469518] [nEW os1000023066578 sm16469518]] [[nEW os1000023066639 sm16469518] [nEW os1000023066578 sm16469518]] [[nEW os1000023066566 sm116816366] [nEW os1000023066604 sm16469518]] [[nEW os1000023066602 sm16469518] [nEW os1000023066604 sm16469518]] [[nEW os1000023066642 sm16469518] [nEW os1000023066604 sm16469518]] [[nEW os1000023066639 sm16469518] [nEW os1000023066604 sm16469518]] [[nEW os1000023066597 sm16469518] [nEW os1000023066566 sm116816366]] [[nEW os1000023066569 sm16469518] [nEW os1000023066566 sm116816366]] [[nEW os1000023066615 sm16469518] [nEW os1000023066566 sm116816366]] [[nEW os1000023066986 sm16469518] [nEW os1000023066566 sm116816366]] [[nEW os1000023066602 sm16469518] [nEW os1000023066566 sm116816366]] [[nEW os1000023066588 sm16469518] [nEW os1000023066566 sm116816366]] [[nEW os1000023066582 sm116816366] [nEW os1000023066566 sm116816366]] [[nEW os1000023066639 sm16469518] [nEW os1000023066566 sm116816366]] [[nEW os1000023066577 sm16469518] [nEW os1000023066566 sm116816366]] [[nEW os1000023066569 sm16469518] [nEW os1000023066597 sm16469518]] [[nEW os1000023066615 sm16469518] [nEW os1000023066597 sm16469518]] [[nEW os1000023066642 sm16469518] [nEW os1000023066597 sm16469518]] [[nEW os1000023066639 sm16469518] [nEW os1000023066597 sm16469518]] [[nEW os1000023066602 sm16469518] [nEW os1000023066569 sm16469518]] [[nEW os1000023066588 sm16469518] [nEW os1000023066569 sm16469518]] [[nEW os1000023066642 sm16469518] [nEW os1000023066569 sm16469518]] [[nEW os1000023066986 sm16469518] [nEW os1000023066615 sm16469518]] [[nEW os1000023066602 sm16469518] [nEW os1000023066615 sm16469518]] [[nEW os1000023066588 sm16469518] [nEW os1000023066615 sm16469518]] [[nEW os1000023066577 sm16469518] [nEW os1000023066615 sm16469518]] [[nEW os1000023066602 sm16469518] [nEW os1000023066986 sm16469518]] [[nEW os1000023066642 sm16469518] [nEW os1000023066986 sm16469518]] [[nEW os1000023066639 sm16469518] [nEW os1000023066986 sm16469518]] [[nEW os1000023066581 sm116816377] [nEW os1000023066602 sm16469518]] [[nEW os1000023066642 sm16469518] [nEW os1000023066602 sm16469518]] [[nEW os1000023066639 sm16469518] [nEW os1000023066602 sm16469518]] [[nEW os1000023066642 sm16469518] [nEW os1000023066588 sm16469518]] [[nEW os1000023066639 sm16469518] [nEW os1000023066588 sm16469518]] [[nEW os1000023066577 sm16469518] [nEW os1000023066642 sm16469518]] [[nEW os1000023066577 sm16469518] [nEW os1000023066639 sm16469518]]]
+ew nogoods length = 51
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 51
+===================== processing the file nott_3_ew.txt =======================
+**  assumptions 59 premises 7016
+** Reasoner time:2088.25
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.01
+**  assumptions 59 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_4_ew.txt =======================
+**  assumptions 6 premises 936
+** Reasoner time:3.78
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 6 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_5_ew.txt =======================
+**  assumptions 4 premises 704
+** Reasoner time:3.48
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_6_ew.txt =======================
+**  assumptions 4 premises 92
+** Reasoner time:0.01
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_7_ew.txt =======================
+**  assumptions 6 premises 246
+** Reasoner time:0.13
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 6 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_8_ew.txt =======================
+**  assumptions 4 premises 78
+** Reasoner time:0.01
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_9_ew.txt =======================
+**  assumptions 4 premises 112
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_10_ew.txt =======================
+**  assumptions 32 premises 2892
+** Reasoner time:147.79
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 32 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_11_ew.txt =======================
+**  assumptions 38 premises 74
+** Reasoner time:0.01
+justification: < atms_node: falsity []
+     justifications [<atms_justif: [[W os1000022976751 os1000022976754] [nEW os1000022976754 sm85652936] [W sm85652936 sm125686588] [nEW sm125686588 os1000022976751]]> <atms_justif: [[W sm85652936 sm125686588] [nEW sm125686588 os1000022976751] [W os1000022976751 os1000022976754] [nEW os1000022976754 sm85652936]]> <atms_justif: [[nEW os1000022976754 sm85652936] [dW sm85652936 sm125686588] [nEW sm125686588 os1000022976754]]> <atms_justif: [[nEW os1000022976751 sm85652936] [dW sm85652936 sm125686588] [nEW sm125686588 os1000022976751]]> <atms_justif: [[nEW sm85652936 os1000022976751] [dW os1000022976751 os1000022976754] [nEW os1000022976754 sm85652936]]> <atms_justif: [[nEW sm125686588 os1000022976751] [dW os1000022976751 os1000022976754] [nEW os1000022976754 sm125686588]]>]
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 38 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = [[[nEW os1000022976754 sm85652936] [nEW os1000022976754 sm125686588]] [[nEW os1000022976751 sm125686588] [nEW os1000022976754 sm125686588]] [[nEW os1000022976751 sm125686588] [nEW os1000022976754 sm85652936]] [[nEW os1000022976751 sm85652936] [nEW os1000022976754 sm85652936]] [[nEW os1000022976751 sm85652936] [nEW os1000022976751 sm125686588]]]
+ew nogoods length = 5
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 5
+===================== processing the file nott_12_ew.txt =======================
+**  assumptions 2 premises 344
+** Reasoner time:0.41
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 2 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_13_ew.txt =======================
+**  assumptions 2 premises 48
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 2 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file nott_14_ew.txt =======================
+**  assumptions 4 premises 134
+** Reasoner time:0.02
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
