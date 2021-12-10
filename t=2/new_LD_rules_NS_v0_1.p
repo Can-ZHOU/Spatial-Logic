@@ -148,9 +148,9 @@ define :ruleset ns_ld_ruleset;
 	[ATMS_JUSTIFY ?consequent [?a1]]
 
 	RULE NS_definition02
-	[nN ?A ?B] [->> a1]
+	[dN ?A ?B] [->> a1]
 	[WHERE some_in_db_p([^a1], trigger_db)]
-    [LVARS [consequent = add_new_formula([nS ^B ^A])]]
+    [LVARS [consequent = add_new_formula([dS ^B ^A])]]
     ==>
 	[SAYIF ld 'NS_definition02 Justifying datum' ?consequent ?a1]
 	[ATMS_JUSTIFY ?consequent [?a1]]

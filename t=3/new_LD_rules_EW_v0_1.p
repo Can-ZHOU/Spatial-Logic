@@ -127,9 +127,9 @@ define :ruleset ew_ld_ruleset;
 	[ATMS_JUSTIFY ?consequent [?a1]]
 
 	RULE EW_definition02
-	[nE ?A ?B] [->> a1]
+	[dE ?A ?B] [->> a1]
 	[WHERE some_in_db_p([^a1], trigger_db)]
-    [LVARS [consequent = add_new_formula([nW ^B ^A])]]
+    [LVARS [consequent = add_new_formula([dW ^B ^A])]]
     ==>
 	[SAYIF ld 'EW_definition02 Justifying datum' ?consequent ?a1]
 	[ATMS_JUSTIFY ?consequent [?a1]]
@@ -233,35 +233,62 @@ define :ruleset ew_ld_ruleset;
 	RULE EW_axiom_6_2
 	[nEW ?A ?B] [->> a1]
 	[nEW ?B ?C] [->> a2]
+    [dW ?C ?A] [->> a3]
+	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
+	==>
+    [SAYIF ld 'EW_axiom_6_2 Inconsistent data' ?a1 ?a2 ?a3]
+	[ATMS_INCONSISTENT ?a1 ?a2 ?a3]
+
+	RULE EW_axiom_6_3
+	[nEW ?A ?B] [->> a1]
+	[nEW ?B ?C] [->> a2]
 	[nEW ?C ?D] [->> a3]
     [dW ?D ?A] [->> a4]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3 ^a4], trigger_db)]
 	==>
-    [SAYIF ld 'EW_axiom_6_2 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
+    [SAYIF ld 'EW_axiom_6_3 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	RULE EW_axiom_7
+	RULE EW_axiom_7_1
+	[W ?A ?B] [->> a1]
+	[W ?B ?C] [->> a2]
+	[nEW ?C ?A] [->> a3]
+	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
+	==>
+    [SAYIF ld 'EW_axiom_7_1 Inconsistent data' ?a1 ?a2 ?a3]
+	[ATMS_INCONSISTENT ?a1 ?a2 ?a3]
+
+	RULE EW_axiom_7_2
 	[W ?A ?B] [->> a1]
 	[W ?B ?C] [->> a2]
 	[nEW ?C ?D] [->> a3]
     [nEW ?D ?A] [->> a4]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3 ^a4], trigger_db)]
 	==>
-    [SAYIF ld 'EW_axiom_7 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
+    [SAYIF ld 'EW_axiom_7_2 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	RULE EW_axiom_8
+	RULE EW_axiom_8_1
+	[dW ?A ?B] [->> a1]
+	[W ?B ?C] [->> a2]
+    [Iew ?C ?A] [->> a3]
+	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
+	==>
+    [SAYIF ld 'EW_axiom_8_1 Inconsistent data' ?a1 ?a2 ?a3]
+	[ATMS_INCONSISTENT ?a1 ?a2 ?a3]
+
+	RULE EW_axiom_8_2
 	[dW ?A ?B] [->> a1]
 	[W ?B ?C] [->> a2]
 	[nEW ?C ?D] [->> a3]
     [Iew ?D ?A] [->> a4]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3 ^a4], trigger_db)]
 	==>
-    [SAYIF ld 'EW_axiom_8 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
+    [SAYIF ld 'EW_axiom_8_2 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 
 
@@ -278,14 +305,23 @@ define :ruleset ew_ld_ruleset;
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	RULE EW_axiom_10
+	RULE EW_axiom_10_1
+	[Iew ?A ?B] [->> a1]
+	[W ?B ?C] [->> a2]
+    [dW ?C ?A] [->> a3]
+	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
+	==>
+    [SAYIF ld 'EW_axiom_10_1 Inconsistent data' ?a1 ?a2 ?a3]
+	[ATMS_INCONSISTENT ?a1 ?a2 ?a3]
+
+	RULE EW_axiom_10_2
 	[Iew ?A ?B] [->> a1]
 	[W ?B ?C] [->> a2]
 	[nEW ?C ?D] [->> a3]
     [dW ?D ?A] [->> a4]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3 ^a4], trigger_db)]
 	==>
-    [SAYIF ld 'EW_axiom_10 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
+    [SAYIF ld 'EW_axiom_10_2 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 
 

@@ -120,15 +120,14 @@ def analysisClean(fileName1, fileName2, reportFileName, reportFileNameClean):
     reportFile.write(cleanPrint(results))
     reportFile.close()
 
-
-fileName1 = path + "results_south_ns.txt"
-fileName2 = path + "results_south_ew.txt"
+fileName1 = path + "justification_results_south_ns.txt"
+fileName2 = path + "justification_results_south_ew.txt"
 reportFileName = path + "analysis_report_south_t-3.txt"
 reportFileNameClean = path + "south_LD.txt"
 analysisClean(fileName1, fileName2, reportFileName, reportFileNameClean)
 
-fileName1 = path + "results_nott_ns.txt"
-fileName2 = path + "results_nott_ew.txt"
+fileName1 = path + "justification_results_nott_ns.txt"
+fileName2 = path + "justification_results_nott_ew.txt"
 reportFileName = path + "analysis_report_nott_t-3.txt"
 reportFileNameClean = path + "nott_LD.txt"
 analysisClean(fileName1, fileName2, reportFileName, reportFileNameClean)

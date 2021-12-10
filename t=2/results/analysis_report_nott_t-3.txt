@@ -1,5 +1,5 @@
 Summary:
-results_nott_ns.txt and results_nott_ew.txt:
+justification_results_nott_ns.txt and justification_results_nott_ew.txt:
 
 All nogoods:124
 

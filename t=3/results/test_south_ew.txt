@@ -1,0 +1,486 @@
+===================== processing the file south_0_ew.txt =======================
+**  assumptions 14 premises 114
+** Reasoner time:0.02
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 14 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_1_ew.txt =======================
+**  assumptions 16 premises 182
+** Reasoner time:0.12
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 16 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_2_ew.txt =======================
+**  assumptions 8 premises 84
+** Reasoner time:0.03
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 8 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_3_ew.txt =======================
+**  assumptions 22 premises 288
+** Reasoner time:0.34
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 22 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_4_ew.txt =======================
+**  assumptions 4 premises 188
+** Reasoner time:0.17
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_5_ew.txt =======================
+**  assumptions 124 premises 1436
+** Reasoner time:36.73
+justification: < atms_node: falsity []
+     justifications [<atms_justif: [[W osOSGB3197 osOSGB3210] [W osOSGB3210 osOSGB3203] [nEW osOSGB3203 sm10522344] [nEW sm10522344 osOSGB3197]]> <atms_justif: [[W osOSGB3197 osOSGB2489] [W osOSGB2489 osOSGB3203] [nEW osOSGB3203 sm10522344] [nEW sm10522344 osOSGB3197]]> <atms_justif: [[W osOSGB3197 osOSGB3185] [W osOSGB3185 osOSGB3203] [nEW osOSGB3203 sm10522344] [nEW sm10522344 osOSGB3197]]> <atms_justif: [[W osOSGB3197 osOSGB3188] [W osOSGB3188 osOSGB3203] [nEW osOSGB3203 sm10522344] [nEW sm10522344 osOSGB3197]]>]
+    justifies [] >
+** Label computation time 0.01
+**  assumptions 124 premises 0
+** Reasoner time:0.57
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = [[[nEW osOSGB3203 sm10522344] [nEW osOSGB3197 sm10522344]]]
+ew nogoods length = 1
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 1
+===================== processing the file south_6_ew.txt =======================
+**  assumptions 0 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 0 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_7_ew.txt =======================
+**  assumptions 10 premises 72
+** Reasoner time:0.02
+justification: < atms_node: falsity []
+     justifications [<atms_justif: [[nEW osOSGB2666 sm191972368] [W sm191972368 sm191972367] [nEW sm191972367 osOSGB2669] [W osOSGB2669 osOSGB2666]]> <atms_justif: [[nEW sm191972367 osOSGB2669] [W osOSGB2669 osOSGB2666] [nEW osOSGB2666 sm191972368] [W sm191972368 sm191972367]]> <atms_justif: [[W osOSGB2668 osOSGB2669] [W osOSGB2669 osOSGB2666] [nEW osOSGB2666 sm191972368] [nEW sm191972368 osOSGB2668]]>]
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 10 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = [[[nEW osOSGB2666 sm191972368] [nEW osOSGB2668 sm191972368]] [[nEW osOSGB2666 sm191972368] [nEW osOSGB2669 sm191972367]]]
+ew nogoods length = 2
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 2
+===================== processing the file south_8_ew.txt =======================
+**  assumptions 6 premises 166
+** Reasoner time:0.07
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 6 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_9_ew.txt =======================
+**  assumptions 55 premises 2492
+** Reasoner time:139.15
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 55 premises 0
+** Reasoner time:0.06
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_10_ew.txt =======================
+**  assumptions 6 premises 62
+** Reasoner time:0.02
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 6 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_11_ew.txt =======================
+**  assumptions 12 premises 1524
+** Reasoner time:26.13
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_12_ew.txt =======================
+**  assumptions 50 premises 482
+** Reasoner time:1.47
+justification: < atms_node: falsity []
+     justifications [<atms_justif: [[nEW osOSGB4291 sm184267132] [W sm184267132 sm157099077] [nEW sm157099077 osOSGB4522] [W osOSGB4522 osOSGB4291]]> <atms_justif: [[nEW osOSGB4291 sm184267132] [W sm184267132 sm157099077] [nEW sm157099077 osOSGB4518] [W osOSGB4518 osOSGB4291]]> <atms_justif: [[nEW osOSGB4291 sm184267132] [W sm184267132 sm157099077] [nEW sm157099077 osOSGB4515] [W osOSGB4515 osOSGB4291]]> <atms_justif: [[nEW osOSGB4291 sm184267132] [W sm184267132 sm157099077] [nEW sm157099077 osOSGB4525] [W osOSGB4525 osOSGB4291]]> <atms_justif: [[nEW sm157099077 osOSGB4522] [W osOSGB4522 osOSGB4291] [nEW osOSGB4291 sm184267132] [W sm184267132 sm157099077]]> <atms_justif: [[nEW sm157099077 osOSGB4518] [W osOSGB4518 osOSGB4291] [nEW osOSGB4291 sm184267132] [W sm184267132 sm157099077]]> <atms_justif: [[nEW sm157099077 osOSGB4515] [W osOSGB4515 osOSGB4291] [nEW osOSGB4291 sm184267132] [W sm184267132 sm157099077]]> <atms_justif: [[nEW sm157099077 osOSGB4525] [W osOSGB4525 osOSGB4291] [nEW osOSGB4291 sm184267132] [W sm184267132 sm157099077]]> <atms_justif: [[W osOSGB4525 osOSGB2210] [W osOSGB2210 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4525]]> <atms_justif: [[W osOSGB4525 osOSGB4288] [W osOSGB4288 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4525]]> <atms_justif: [[W osOSGB4525 osOSGB4276] [W osOSGB4276 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4525]]> <atms_justif: [[W osOSGB4525 osOSGB4295] [W osOSGB4295 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4525]]> <atms_justif: [[W osOSGB4525 osOSGB4291] [W osOSGB4291 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4525]]> <atms_justif: [[W osOSGB4303 osOSGB2210] [W osOSGB2210 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4303]]> <atms_justif: [[W osOSGB4303 osOSGB4288] [W osOSGB4288 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4303]]> <atms_justif: [[W osOSGB4522 osOSGB2210] [W osOSGB2210 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4522]]> <atms_justif: [[W osOSGB4522 osOSGB4288] [W osOSGB4288 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4522]]> <atms_justif: [[W osOSGB4522 osOSGB4276] [W osOSGB4276 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4522]]> <atms_justif: [[W osOSGB4522 osOSGB4295] [W osOSGB4295 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4522]]> <atms_justif: [[W osOSGB4522 osOSGB4291] [W osOSGB4291 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4522]]> <atms_justif: [[W osOSGB4518 osOSGB4539] [W osOSGB4539 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4518]]> <atms_justif: [[W osOSGB4518 osOSGB4539] [W osOSGB4539 osOSGB2210] [nEW osOSGB2210 sm157099077] [nEW sm157099077 osOSGB4518]]> <atms_justif: [[W osOSGB4515 osOSGB4539] [W osOSGB4539 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4515 osOSGB4539] [W osOSGB4539 osOSGB2210] [nEW osOSGB2210 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4515 osOSGB4529] [W osOSGB4529 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4515 osOSGB4529] [W osOSGB4529 osOSGB4291] [nEW osOSGB4291 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4515 osOSGB4529] [W osOSGB4529 osOSGB4276] [nEW osOSGB4276 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4515 osOSGB4529] [W osOSGB4529 osOSGB4288] [nEW osOSGB4288 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4515 osOSGB4529] [W osOSGB4529 osOSGB2210] [nEW osOSGB2210 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4515 osOSGB4291] [W osOSGB4291 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4518 osOSGB4291] [W osOSGB4291 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4518]]> <atms_justif: [[W osOSGB4515 osOSGB4295] [W osOSGB4295 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4518 osOSGB4295] [W osOSGB4295 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4518]]> <atms_justif: [[W osOSGB4515 osOSGB4276] [W osOSGB4276 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4518 osOSGB4276] [W osOSGB4276 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4518]]> <atms_justif: [[W osOSGB4515 osOSGB4299] [W osOSGB4299 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4518 osOSGB4299] [W osOSGB4299 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4518]]> <atms_justif: [[W osOSGB4515 osOSGB4288] [W osOSGB4288 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4518 osOSGB4288] [W osOSGB4288 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4518]]> <atms_justif: [[W osOSGB4515 osOSGB2210] [W osOSGB2210 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4518 osOSGB2210] [W osOSGB2210 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4518]]> <atms_justif: [[W osOSGB4515 osOSGB4303] [W osOSGB4303 osOSGB2210] [nEW osOSGB2210 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4515 osOSGB4303] [W osOSGB4303 osOSGB4288] [nEW osOSGB4288 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4515 osOSGB4303] [W osOSGB4303 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4515 osOSGB4657] [W osOSGB4657 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4518 osOSGB4657] [W osOSGB4657 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4518]]> <atms_justif: [[W osOSGB4295 osOSGB4657] [W osOSGB4657 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4295]]> <atms_justif: [[W osOSGB4276 osOSGB4657] [W osOSGB4657 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4276]]> <atms_justif: [[W osOSGB4299 osOSGB4657] [W osOSGB4657 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4299]]> <atms_justif: [[W osOSGB4522 osOSGB4657] [W osOSGB4657 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4522]]> <atms_justif: [[W osOSGB4303 osOSGB4657] [W osOSGB4657 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4303]]> <atms_justif: [[W osOSGB4525 osOSGB4657] [W osOSGB4657 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4525]]> <atms_justif: [[W osOSGB4515 osOSGB4987] [W osOSGB4987 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4515]]> <atms_justif: [[W osOSGB4518 osOSGB4987] [W osOSGB4987 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4518]]> <atms_justif: [[W osOSGB4522 osOSGB4987] [W osOSGB4987 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4522]]> <atms_justif: [[W osOSGB4525 osOSGB4987] [W osOSGB4987 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4525]]> <atms_justif: [[nEW osOSGB4646 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4525] [dW osOSGB4525 osOSGB4646]]> <atms_justif: [[nEW osOSGB4266 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4522] [dW osOSGB4522 osOSGB4266]]> <atms_justif: [[nEW osOSGB4266 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4303] [dW osOSGB4303 osOSGB4266]]> <atms_justif: [[nEW osOSGB4266 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4525] [dW osOSGB4525 osOSGB4266]]> <atms_justif: [[nEW osOSGB4262 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4522] [dW osOSGB4522 osOSGB4262]]> <atms_justif: [[nEW osOSGB4262 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4299] [dW osOSGB4299 osOSGB4262]]> <atms_justif: [[nEW osOSGB4262 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4303] [dW osOSGB4303 osOSGB4262]]> <atms_justif: [[nEW osOSGB4262 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4525] [dW osOSGB4525 osOSGB4262]]> <atms_justif: [[nEW osOSGB4273 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4522] [dW osOSGB4522 osOSGB4273]]> <atms_justif: [[nEW osOSGB4270 osOSGB4649] [nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4522] [dW osOSGB4522 osOSGB4270]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4522] [nEW osOSGB4522 osOSGB4529] [dW osOSGB4529 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4522] [nEW osOSGB4522 osOSGB4518] [dW osOSGB4518 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4522] [nEW osOSGB4522 osOSGB4303] [dW osOSGB4303 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4522] [nEW osOSGB4522 osOSGB4525] [dW osOSGB4525 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4299] [nEW osOSGB4299 osOSGB4529] [dW osOSGB4529 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4299] [nEW osOSGB4299 osOSGB4522] [dW osOSGB4522 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4299] [nEW osOSGB4299 osOSGB4303] [dW osOSGB4303 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4299] [nEW osOSGB4299 osOSGB4525] [dW osOSGB4525 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4276] [nEW osOSGB4276 osOSGB4303] [dW osOSGB4303 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4518] [nEW osOSGB4518 osOSGB4529] [dW osOSGB4529 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4518] [nEW osOSGB4518 osOSGB4522] [dW osOSGB4522 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4518] [nEW osOSGB4518 osOSGB4303] [dW osOSGB4303 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4518] [nEW osOSGB4518 osOSGB4525] [dW osOSGB4525 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4515] [nEW osOSGB4515 osOSGB4518] [dW osOSGB4518 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4515] [nEW osOSGB4515 osOSGB4522] [dW osOSGB4522 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4515] [nEW osOSGB4515 osOSGB4525] [dW osOSGB4525 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4303] [nEW osOSGB4303 osOSGB4522] [dW osOSGB4522 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4303] [nEW osOSGB4303 osOSGB4529] [dW osOSGB4529 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4303] [nEW osOSGB4303 osOSGB4518] [dW osOSGB4518 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4303] [nEW osOSGB4303 osOSGB4525] [dW osOSGB4525 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4525] [nEW osOSGB4525 osOSGB4303] [dW osOSGB4303 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4525] [nEW osOSGB4525 osOSGB4522] [dW osOSGB4522 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4525] [nEW osOSGB4525 osOSGB4529] [dW osOSGB4529 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4525] [nEW osOSGB4525 osOSGB4518] [dW osOSGB4518 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4295] [nEW osOSGB4295 osOSGB4529] [dW osOSGB4529 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4295] [nEW osOSGB4295 osOSGB4303] [dW osOSGB4303 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4291] [nEW osOSGB4291 osOSGB4303] [dW osOSGB4303 osOSGB4649]]> <atms_justif: [[nEW osOSGB4262 sm157099445] [nEW sm157099445 sm157099077] [nEW sm157099077 osOSGB4522] [dW osOSGB4522 osOSGB4262]]> <atms_justif: [[nEW osOSGB4262 sm157099445] [nEW sm157099445 sm157099077] [nEW sm157099077 osOSGB4299] [dW osOSGB4299 osOSGB4262]]> <atms_justif: [[nEW osOSGB4262 sm157099445] [nEW sm157099445 sm157099077] [nEW sm157099077 osOSGB4303] [dW osOSGB4303 osOSGB4262]]> <atms_justif: [[nEW osOSGB4262 sm157099445] [nEW sm157099445 sm157099077] [nEW sm157099077 osOSGB4525] [dW osOSGB4525 osOSGB4262]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4522] [dW osOSGB4522 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4518] [dW osOSGB4518 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4303] [dW osOSGB4303 osOSGB4649]]> <atms_justif: [[nEW osOSGB4649 sm157099077] [nEW sm157099077 osOSGB4525] [dW osOSGB4525 osOSGB4649]]>]
+    justifies [] >
+** Label computation time 0.01
+**  assumptions 50 premises 0
+** Reasoner time:0.02
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = [[[nEW osOSGB4649 sm157099077] [nEW osOSGB4291 sm157099077]] [[nEW osOSGB4515 sm157099077] [nEW osOSGB4291 sm157099077]] [[nEW osOSGB4295 sm157099077] [nEW osOSGB4649 sm157099077]] [[nEW osOSGB4525 sm157099077] [nEW osOSGB4649 sm157099077]] [[nEW osOSGB4303 sm157099077] [nEW osOSGB4649 sm157099077]] [[nEW osOSGB4515 sm157099077] [nEW osOSGB4649 sm157099077]] [[nEW osOSGB4518 sm157099077] [nEW osOSGB4649 sm157099077]] [[nEW osOSGB4276 sm157099077] [nEW osOSGB4649 sm157099077]] [[nEW osOSGB4299 sm157099077] [nEW osOSGB4649 sm157099077]] [[nEW osOSGB4522 sm157099077] [nEW osOSGB4649 sm157099077]] [[nEW osOSGB4525 sm157099077] [nEW osOSGB4291 sm184267132]] [[nEW osOSGB4515 sm157099077] [nEW osOSGB4291 sm184267132]] [[nEW osOSGB4518 sm157099077] [nEW osOSGB4291 sm184267132]] [[nEW osOSGB4522 sm157099077] [nEW osOSGB4291 sm184267132]] [[nEW osOSGB4515 sm157099077] [nEW osOSGB2210 sm157099077]] [[nEW osOSGB4518 sm157099077] [nEW osOSGB2210 sm157099077]] [[nEW osOSGB4262 sm157099445] [nEW osOSGB4525 sm157099077]] [[nEW osOSGB4262 sm157099445] [nEW osOSGB4303 sm157099077]] [[nEW osOSGB4288 sm157099077] [nEW osOSGB4515 sm157099077]] [[nEW osOSGB4276 sm157099077] [nEW osOSGB4515 sm157099077]] [[nEW osOSGB4299 sm157099077] [nEW osOSGB4262 sm157099445]] [[nEW osOSGB4522 sm157099077] [nEW osOSGB4262 sm157099445]]]
+ew nogoods length = 22
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 22
+===================== processing the file south_13_ew.txt =======================
+**  assumptions 6 premises 158
+** Reasoner time:0.12
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 6 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_14_ew.txt =======================
+**  assumptions 123 premises 1476
+** Reasoner time:16.36
+justification: < atms_node: falsity []
+     justifications [<atms_justif: [[nEW osOSGB3072 sm171779229] [W sm171779229 sm171777506] [nEW sm171777506 osOSGB3059] [W osOSGB3059 osOSGB3072]]> <atms_justif: [[nEW osOSGB3072 sm171779905] [W sm171779905 sm171777507] [nEW sm171777507 osOSGB3058] [W osOSGB3058 osOSGB3072]]> <atms_justif: [[nEW osOSGB3072 sm171779905] [W sm171779905 sm171777506] [nEW sm171777506 osOSGB3059] [W osOSGB3059 osOSGB3072]]> <atms_justif: [[nEW osOSGB3072 sm171779905] [W sm171779905 sm171778279] [nEW sm171778279 osOSGB3056] [W osOSGB3056 osOSGB3072]]> <atms_justif: [[nEW osOSGB3072 sm171779905] [W sm171779905 sm171779228] [nEW sm171779228 osOSGB3055] [W osOSGB3055 osOSGB3072]]> <atms_justif: [[nEW osOSGB3072 sm171779905] [W sm171779905 sm171777503] [nEW sm171777503 osOSGB3060] [W osOSGB3060 osOSGB3072]]> <atms_justif: [[nEW sm171777506 osOSGB3059] [W osOSGB3059 osOSGB3072] [nEW osOSGB3072 sm171779229] [W sm171779229 sm171777506]]> <atms_justif: [[nEW sm171777506 osOSGB3059] [W osOSGB3059 osOSGB3072] [nEW osOSGB3072 sm171779905] [W sm171779905 sm171777506]]> <atms_justif: [[nEW sm171777507 osOSGB3058] [W osOSGB3058 osOSGB3072] [nEW osOSGB3072 sm171779905] [W sm171779905 sm171777507]]> <atms_justif: [[nEW sm171778279 osOSGB3056] [W osOSGB3056 osOSGB3072] [nEW osOSGB3072 sm171779905] [W sm171779905 sm171778279]]> <atms_justif: [[nEW sm171779228 osOSGB3055] [W osOSGB3055 osOSGB3072] [nEW osOSGB3072 sm171779905] [W sm171779905 sm171779228]]> <atms_justif: [[nEW sm171777503 osOSGB3060] [W osOSGB3060 osOSGB3072] [nEW osOSGB3072 sm171779905] [W sm171779905 sm171777503]]> <atms_justif: [[W osOSGB3002 osOSGB3060] [W osOSGB3060 osOSGB3072] [nEW osOSGB3072 sm171779229] [nEW sm171779229 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3060] [W osOSGB3060 osOSGB3072] [nEW osOSGB3072 sm171779905] [nEW sm171779905 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3059] [W osOSGB3059 osOSGB3072] [nEW osOSGB3072 sm171779229] [nEW sm171779229 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3059] [W osOSGB3059 osOSGB3072] [nEW osOSGB3072 sm171779905] [nEW sm171779905 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3058] [W osOSGB3058 osOSGB3072] [nEW osOSGB3072 sm171779229] [nEW sm171779229 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3058] [W osOSGB3058 osOSGB3072] [nEW osOSGB3072 sm171779905] [nEW sm171779905 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3058] [W osOSGB3058 osOSGB3071] [nEW osOSGB3071 sm171779229] [nEW sm171779229 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3058] [W osOSGB3058 osOSGB3070] [nEW osOSGB3070 sm171779229] [nEW sm171779229 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3057] [W osOSGB3057 osOSGB3072] [nEW osOSGB3072 sm171779229] [nEW sm171779229 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3057] [W osOSGB3057 osOSGB3072] [nEW osOSGB3072 sm171779905] [nEW sm171779905 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3057] [W osOSGB3057 osOSGB3071] [nEW osOSGB3071 sm171779229] [nEW sm171779229 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3057] [W osOSGB3057 osOSGB3070] [nEW osOSGB3070 sm171779229] [nEW sm171779229 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3056] [W osOSGB3056 osOSGB3072] [nEW osOSGB3072 sm171779229] [nEW sm171779229 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3056] [W osOSGB3056 osOSGB3072] [nEW osOSGB3072 sm171779905] [nEW sm171779905 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3056] [W osOSGB3056 osOSGB3071] [nEW osOSGB3071 sm171779229] [nEW sm171779229 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3056] [W osOSGB3056 osOSGB3070] [nEW osOSGB3070 sm171779229] [nEW sm171779229 osOSGB3002]]> <atms_justif: [[W osOSGB1794 osOSGB3059] [W osOSGB3059 osOSGB3072] [nEW osOSGB3072 sm171779229] [nEW sm171779229 osOSGB1794]]> <atms_justif: [[W osOSGB1794 osOSGB3057] [W osOSGB3057 osOSGB3072] [nEW osOSGB3072 sm171779229] [nEW sm171779229 osOSGB1794]]> <atms_justif: [[W osOSGB1794 osOSGB3057] [W osOSGB3057 osOSGB3071] [nEW osOSGB3071 sm171779229] [nEW sm171779229 osOSGB1794]]> <atms_justif: [[W osOSGB1794 osOSGB3057] [W osOSGB3057 osOSGB3070] [nEW osOSGB3070 sm171779229] [nEW sm171779229 osOSGB1794]]> <atms_justif: [[W osOSGB1794 osOSGB3056] [W osOSGB3056 osOSGB3072] [nEW osOSGB3072 sm171779229] [nEW sm171779229 osOSGB1794]]> <atms_justif: [[W osOSGB1794 osOSGB3056] [W osOSGB3056 osOSGB3071] [nEW osOSGB3071 sm171779229] [nEW sm171779229 osOSGB1794]]> <atms_justif: [[W osOSGB1794 osOSGB3056] [W osOSGB3056 osOSGB3070] [nEW osOSGB3070 sm171779229] [nEW sm171779229 osOSGB1794]]> <atms_justif: [[W sm171779229 sm171777506] [W sm171777506 sm171775403] [nEW sm171775403 osOSGB3072] [nEW osOSGB3072 sm171779229]]> <atms_justif: [[W sm171779905 sm171777507] [W sm171777507 sm171775403] [nEW sm171775403 osOSGB3072] [nEW osOSGB3072 sm171779905]]> <atms_justif: [[W sm171779905 sm171777506] [W sm171777506 sm171775403] [nEW sm171775403 osOSGB3072] [nEW osOSGB3072 sm171779905]]> <atms_justif: [[W sm171779905 sm171778279] [W sm171778279 sm171775403] [nEW sm171775403 osOSGB3072] [nEW osOSGB3072 sm171779905]]> <atms_justif: [[W sm171779905 sm171779228] [W sm171779228 sm171775403] [nEW sm171775403 osOSGB3072] [nEW osOSGB3072 sm171779905]]> <atms_justif: [[W sm171779905 sm171777503] [W sm171777503 sm171775403] [nEW sm171775403 osOSGB3072] [nEW osOSGB3072 sm171779905]]> <atms_justif: [[W sm171779905 sm171778280] [W sm171778280 sm171775403] [nEW sm171775403 osOSGB3072] [nEW osOSGB3072 sm171779905]]> <atms_justif: [[W osOSGB3016 osOSGB3060] [W osOSGB3060 osOSGB3072] [nEW osOSGB3072 sm171779229] [nEW sm171779229 osOSGB3016]]> <atms_justif: [[W osOSGB1794 osOSGB3060] [W osOSGB3060 osOSGB3072] [nEW osOSGB3072 sm171779229] [nEW sm171779229 osOSGB1794]]> <atms_justif: [[W osOSGB1794 osOSGB3003] [W osOSGB3003 osOSGB3072] [nEW osOSGB3072 sm171779229] [nEW sm171779229 osOSGB1794]]> <atms_justif: [[W osOSGB1794 osOSGB3003] [W osOSGB3003 osOSGB3070] [nEW osOSGB3070 sm171779229] [nEW sm171779229 osOSGB1794]]> <atms_justif: [[W osOSGB3002 osOSGB3003] [W osOSGB3003 osOSGB3072] [nEW osOSGB3072 sm171779229] [nEW sm171779229 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3003] [W osOSGB3003 osOSGB3072] [nEW osOSGB3072 sm171779905] [nEW sm171779905 osOSGB3002]]> <atms_justif: [[W osOSGB3002 osOSGB3003] [W osOSGB3003 osOSGB3070] [nEW osOSGB3070 sm171779229] [nEW sm171779229 osOSGB3002]]>]
+    justifies [] >
+** Label computation time 0.01
+**  assumptions 123 premises 0
+** Reasoner time:0.23
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = [[[nEW osOSGB3072 sm171779229] [nEW osOSGB1794 sm171779229]] [[nEW osOSGB3071 sm171779229] [nEW osOSGB1794 sm171779229]] [[nEW osOSGB3070 sm171779229] [nEW osOSGB1794 sm171779229]] [[nEW osOSGB3072 sm171779905] [nEW osOSGB3060 sm171777503]] [[nEW osOSGB3072 sm171779905] [nEW osOSGB3055 sm171779228]] [[nEW osOSGB3016 sm171779229] [nEW osOSGB3072 sm171779229]] [[nEW osOSGB3059 sm171777506] [nEW osOSGB3072 sm171779229]] [[nEW osOSGB3002 sm171779229] [nEW osOSGB3072 sm171779229]] [[nEW osOSGB3072 sm171775403] [nEW osOSGB3072 sm171779229]] [[nEW osOSGB3002 sm171779229] [nEW osOSGB3071 sm171779229]] [[nEW osOSGB3072 sm171779905] [nEW osOSGB3002 sm171779905]] [[nEW osOSGB3072 sm171779905] [nEW osOSGB3056 sm171778279]] [[nEW osOSGB3058 sm171777507] [nEW osOSGB3072 sm171779905]] [[nEW osOSGB3059 sm171777506] [nEW osOSGB3072 sm171779905]] [[nEW osOSGB3072 sm171775403] [nEW osOSGB3072 sm171779905]] [[nEW osOSGB3070 sm171779229] [nEW osOSGB3002 sm171779229]]]
+ew nogoods length = 16
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 16
+===================== processing the file south_15_ew.txt =======================
+**  assumptions 11 premises 32
+** Reasoner time:0.01
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 11 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_16_ew.txt =======================
+**  assumptions 4 premises 362
+** Reasoner time:0.81
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_17_ew.txt =======================
+**  assumptions 2 premises 14
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 2 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_18_ew.txt =======================
+**  assumptions 29 premises 224
+** Reasoner time:0.32
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 29 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_19_ew.txt =======================
+**  assumptions 4 premises 60
+** Reasoner time:0.01
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_20_ew.txt =======================
+**  assumptions 10 premises 1344
+** Reasoner time:17.15
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 10 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_21_ew.txt =======================
+**  assumptions 0 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 0 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_22_ew.txt =======================
+**  assumptions 13 premises 3918
+** Reasoner time:511.57
+justification: < atms_node: falsity []
+     justifications [<atms_justif: [[nEW osOSGB4343 sm10522700] [W sm10522700 sm142891444] [nEW sm142891444 osOSGB2656] [W osOSGB2656 osOSGB4343]]> <atms_justif: [[nEW osOSGB4343 sm142891441] [W sm142891441 sm142891444] [nEW sm142891444 osOSGB2656] [W osOSGB2656 osOSGB4343]]> <atms_justif: [[nEW sm142891444 osOSGB2656] [W osOSGB2656 osOSGB4343] [nEW osOSGB4343 sm10522700] [W sm10522700 sm142891444]]> <atms_justif: [[nEW sm142891444 osOSGB2656] [W osOSGB2656 osOSGB4343] [nEW osOSGB4343 sm142891441] [W sm142891441 sm142891444]]> <atms_justif: [[W sm10522700 sm142891441] [W sm142891441 sm142891444] [nEW sm142891444 osOSGB2656] [nEW osOSGB2656 sm10522700]]> <atms_justif: [[nEW sm142891444 osOSGB2656] [nEW osOSGB2656 sm10522700] [dW sm10522700 sm142891444]]>]
+    justifies [] >
+** Label computation time 0.02
+**  assumptions 13 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = [[[nEW osOSGB2656 sm142891444] [nEW osOSGB4343 sm10522700]] [[nEW osOSGB4343 sm142891441] [nEW osOSGB2656 sm142891444]] [[nEW osOSGB2656 sm10522700] [nEW osOSGB2656 sm142891444]]]
+ew nogoods length = 3
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 3
+===================== processing the file south_23_ew.txt =======================
+**  assumptions 6 premises 22
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 6 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_24_ew.txt =======================
+**  assumptions 14 premises 266
+** Reasoner time:0.35
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 14 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_25_ew.txt =======================
+**  assumptions 12 premises 222
+** Reasoner time:0.16
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 12 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_26_ew.txt =======================
+**  assumptions 4 premises 184
+** Reasoner time:0.17
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0

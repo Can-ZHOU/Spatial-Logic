@@ -1,5 +1,5 @@
 Summary:
-results_south_ns.txt and results_south_ew.txt:
+justification_results_south_ns.txt and justification_results_south_ew.txt:
 
 All nogoods:237
 

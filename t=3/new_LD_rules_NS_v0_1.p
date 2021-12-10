@@ -127,9 +127,9 @@ define :ruleset ns_ld_ruleset;
 	[ATMS_JUSTIFY ?consequent [?a1]]
 
 	RULE NS_definition02
-	[nN ?A ?B] [->> a1]
+	[dN ?A ?B] [->> a1]
 	[WHERE some_in_db_p([^a1], trigger_db)]
-    [LVARS [consequent = add_new_formula([nN ^B ^A])]]
+    [LVARS [consequent = add_new_formula([dS ^B ^A])]]
     ==>
 	[SAYIF ld 'NS_definition02 Justifying datum' ?consequent ?a1]
 	[ATMS_JUSTIFY ?consequent [?a1]]
@@ -232,35 +232,62 @@ define :ruleset ns_ld_ruleset;
 	RULE NS_axiom_6_2
 	[nNS ?A ?B] [->> a1]
 	[nNS ?B ?C] [->> a2]
+    [dS ?C ?A] [->> a3]
+	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
+	==>
+    [SAYIF ld 'NS_axiom_6_2 Inconsistent data' ?a1 ?a2 ?a3]
+	[ATMS_INCONSISTENT ?a1 ?a2 ?a3]
+
+	RULE NS_axiom_6_3
+	[nNS ?A ?B] [->> a1]
+	[nNS ?B ?C] [->> a2]
 	[nNS ?C ?D] [->> a3]
     [dS ?D ?A] [->> a4]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3 ^a4], trigger_db)]
 	==>
-    [SAYIF ld 'NS_axiom_6_2 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
+    [SAYIF ld 'NS_axiom_6_3 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	RULE NS_axiom_7
+	RULE NS_axiom_7_1
+	[S ?A ?B] [->> a1]
+	[S ?B ?C] [->> a2]
+	[nNS ?C ?A] [->> a3]
+	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
+	==>
+    [SAYIF ld 'NS_axiom_7_1 Inconsistent data' ?a1 ?a2 ?a3]
+	[ATMS_INCONSISTENT ?a1 ?a2 ?a3]
+
+	RULE NS_axiom_7_2
 	[S ?A ?B] [->> a1]
 	[S ?B ?C] [->> a2]
 	[nNS ?C ?D] [->> a3]
     [nNS ?D ?A] [->> a4]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3 ^a4], trigger_db)]
 	==>
-    [SAYIF ld 'NS_axiom_7 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
+    [SAYIF ld 'NS_axiom_7_2 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	RULE NS_axiom_8
+	RULE NS_axiom_8_1
+	[dS ?A ?B] [->> a1]
+	[S ?B ?C] [->> a2]
+    [Ins ?C ?A] [->> a3]
+	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
+	==>
+    [SAYIF ld 'NS_axiom_8_1 Inconsistent data' ?a1 ?a2 ?a3]
+	[ATMS_INCONSISTENT ?a1 ?a2 ?a3]
+
+	RULE NS_axiom_8_2
 	[dS ?A ?B] [->> a1]
 	[S ?B ?C] [->> a2]
 	[nNS ?C ?D] [->> a3]
     [Ins ?D ?A] [->> a4]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3 ^a4], trigger_db)]
 	==>
-    [SAYIF ld 'NS_axiom_8 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
+    [SAYIF ld 'NS_axiom_8_2 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 
 
@@ -277,14 +304,23 @@ define :ruleset ns_ld_ruleset;
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	RULE NS_axiom_10
+	RULE NS_axiom_10_1
+	[Ins ?A ?B] [->> a1]
+	[S ?B ?C] [->> a2]
+    [dS ?C ?A] [->> a3]
+	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
+	==>
+    [SAYIF ld 'NS_axiom_10_1 Inconsistent data' ?a1 ?a2 ?a3]
+	[ATMS_INCONSISTENT ?a1 ?a2 ?a3]
+
+	RULE NS_axiom_10_2
 	[Ins ?A ?B] [->> a1]
 	[S ?B ?C] [->> a2]
 	[nNS ?C ?D] [->> a3]
     [dS ?D ?A] [->> a4]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3 ^a4], trigger_db)]
 	==>
-    [SAYIF ld 'NS_axiom_10 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
+    [SAYIF ld 'NS_axiom_10_2 Inconsistent data' ?a1 ?a2 ?a3 ?a4]
 	[ATMS_INCONSISTENT ?a1 ?a2 ?a3 ?a4]
 
 
