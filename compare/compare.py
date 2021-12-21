@@ -17,9 +17,9 @@ def prettyPrint(fileList):
     result = ""
     for i in range(len(fileList)):
         tmp = fileList[i]
-        result += "[(" + str(tmp[0][0]) + ", " + str(tmp[0][1]) + ") (" + str(tmp[1][0]) + ", " + str(tmp[1][1]) + ")]  "
-        if (i+1)%2 == 0:
-            result += "\n"
+        result += str(tmp[0][0]) + "," + str(tmp[0][1]) + "," + str(tmp[1][0]) + "," + str(tmp[1][1])
+        # if (i+1)%2 == 0:
+        result += "\n"
     return result
 
 def analysisClean(fileName1, fileName2, reportFileName):
@@ -46,9 +46,10 @@ def analysisClean(fileName1, fileName2, reportFileName):
 
     # write report
     reportFile = open(reportFileName, "w")
-    report = "Summary:" + "\n" + str(fileName1) + " and " + str(fileName2) + ":" \
-        + "\n\n---------------------------------------" \
-        + "\nDetails:\n"
+    report = ""
+    # report = "Summary:" + "\n" + str(fileName1) + " and " + str(fileName2) + ":" \
+    #     + "\n\n---------------------------------------" \
+    #     + "\nDetails:\n"
 
     report += "\nUnique t=2:\n" + prettyPrint(unique_t2)
     report += "\nUnique t=3:\n" + prettyPrint(unique_t3)
