@@ -1,7 +1,7 @@
 /* --- Copyright University of Nottingham 2021. All rights reserved. ------
  > File:            LD_rules.p
- > Purpose:	        Rules for LD.
- > Author:          Mingda LIU, 2021
+ > Purpose:	    Rules for LD.
+ > Author:          Can ZHOU, 2021
  > Documentation:   
  > Related Files:   new_LD_reasoner.p
  */
