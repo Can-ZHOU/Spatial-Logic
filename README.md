@@ -108,5 +108,5 @@ Spatial Logic
 |--- README.md
 ```
 ### Contact
-- For any issue/question about this paper and project, please contact [Dr. Heshan Du](Heshan.Du@nottingham.edu.cn)
-- For any issue/question about codes, please contact [Can Zhou](Can.Zhou@nottingham.edu.cn)
+- For any issue/question about this paper and project, please contact [Dr. Heshan Du](<Heshan.Du@nottingham.edu.cn>)
+- For any issue/question about codes, please contact [Can Zhou](<Can.Zhou@nottingham.edu.cn>)
