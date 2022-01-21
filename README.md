@@ -107,8 +107,8 @@ Spatial Logic
 |--- README.md
 ```
 ### Contact
-- For any issue/question about this paper and project, please contact Dr. Heshan Du via <Heshan.Du@nottingham.edu.cn>
-- For any issue/question about codes, please contact Can Zhou via <Can.Zhou@nottingham.edu.cn>
+- For any issue/question about this paper and project, please contact Dr. Heshan Du via Heshan.Du@nottingham.edu.cn
+- For any issue/question about codes, please contact Can Zhou via Can.Zhou@nottingham.edu.cn
 
 ### Acknowledgments
-We would like to thank Dr. Brian Logan and Dr. Hai H. Nguye for sharing their code of the LNF and LBPT reasoners and agreeing to publish the code under GPL. The development of the LD2 and LD3 reasoners are based on the LNF and LBPT reasoners described in an [IAAI-15 paper: Using Qualitative Spatial Logic for Validating Crowd-Sourced Geospatial Data](https://ojs.aaai.org/index.php/AAAI/article/view/19052). 
+We would like to thank Dr. Brian Logan (b.s.logan@uu.nl) and Dr. Hai H. Nguye (hai.hoang.nguyen@liverpool.ac.uk) for sharing their code of the LNF and LBPT reasoners and agreeing to publish the code under GPL. The development of the LD2 and LD3 reasoners are based on the LNF and LBPT reasoners described in an [IAAI-15 paper: Using Qualitative Spatial Logic for Validating Crowd-Sourced Geospatial Data](https://ojs.aaai.org/index.php/AAAI/article/view/19052). 
