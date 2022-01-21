@@ -73,7 +73,7 @@ Spatial Logic
 |    |--- new_LD_rules_NS_v0_1.p
 |    |--- rest is dataset.
 |
-|--- t=3  (it contains the code of LD3 reasoner)
+|--- t=3  (it contains the code of the LD3 reasoner)
 |    |--- results
 |    |    |--- SpatialLogic.py
 |    |    |--- analysis_report_nott_t3.txt
