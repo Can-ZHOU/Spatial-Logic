@@ -26,7 +26,7 @@ Spatial Logic
 |    |--- south_LD_t2.txt  
 |    |--- south_LD_t3.txt  
 |  
-|--- data  
+|--- data  (it contains the latest version of the test data)
 |  
 |--- difference  
 |    |--- diff.py  
@@ -43,7 +43,7 @@ Spatial Logic
 |    |--- south_LD_t3.txt
 |    |--- south_LD_t3_old.txt
 |
-|--- t=2
+|--- t=2  (it contains the code of the LD2 reasoner)
 |    |--- results
 |    |    |--- SpatialLogic.py
 |    |    |--- analysis_report_nott_t2.txt
@@ -73,7 +73,7 @@ Spatial Logic
 |    |--- new_LD_rules_NS_v0_1.p
 |    |--- rest is dataset.
 |
-|--- t=3
+|--- t=3  (it contains the code of LD3 reasoner)
 |    |--- results
 |    |    |--- SpatialLogic.py
 |    |    |--- analysis_report_nott_t3.txt
@@ -107,8 +107,8 @@ Spatial Logic
 |--- README.md
 ```
 ### Contact
-- For any issue/question about this paper and project, please contact Dr. Heshan Du (Heshan.Du@nottingham.edu.cn)
-- For any issue/question about codes, please contact Can Zhou (Can.Zhou@nottingham.edu.cn)
+- For any question about this paper and project, please contact Dr. Heshan Du (Heshan.Du@nottingham.edu.cn).
+- For any question about code, please contact Can Zhou (Can.Zhou@nottingham.edu.cn).
 
 ### Acknowledgments
 We would like to thank Dr. Brian Logan (b.s.logan@uu.nl) and Dr. Hai H. Nguye (hai.hoang.nguyen@liverpool.ac.uk) for sharing their code of the LNF and LBPT reasoners and agreeing to publish the code under GPL. The development of the LD2 and LD3 reasoners are based on the LNF and LBPT reasoners described in an [IAAI-15 paper: Using Qualitative Spatial Logic for Validating Crowd-Sourced Geospatial Data](https://ojs.aaai.org/index.php/AAAI/article/view/19052). 
