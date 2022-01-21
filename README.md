@@ -2,7 +2,7 @@
 ## A Logic of Directions and its Finite Axiomatisability over 2D Euclidean Space
 
 ### Set Up && Environment
-- Running environment: Ubuntu 20.04
+- Running environment: Ubuntu 18.04
 - Programming environment: Poplog (can be downloaded via [this link](https://www.cs.bham.ac.uk/research/projects/poplog/freepoplog.html))
 
 ### Run Code
