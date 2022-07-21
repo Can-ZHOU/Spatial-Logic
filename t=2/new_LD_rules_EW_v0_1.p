@@ -16,107 +16,75 @@ define :ruleset ew_ld_ruleset;
 ;;;	[DLOCAL [prb_show_conditions = true]];
 	[VARS prb_allrules trigger_db];
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-    ;;; Deﬁnition 2.
-	;;; deﬁnitely north dE (a, b) = def E(a, b) ∧ ¬Iew(a, b)
-    ;;; somewhat north sE (a, b) = def E (a, b) ∧ Iew(a, b)
-    ;;; neither north nor south nEW(a, b) =def ¬E (a, b) ∧ ¬W(a, b) == nEW(a, b) ∧ (E (a, b) or W(a,b)) = bot
-    ;;; somewhat south sW(a, b) =def W(a, b) ∧ Iew(a, b)
-    ;;; deﬁnitely south dW(a,b)=def W(a,b)∧¬Iew(a,b)
 
-;;; basic_rules_added_01
-;;; two basic rules been added 
-;;; AS 1 dE(a, b) → dW(b, a)
-;;; AS 2 dW(a, b) → W(a, b)
-    RULE EW_axiom_01_0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	RULE EW_axiom_2
+	[dW ?A ?A] [->> a1]
+	[WHERE some_in_db_p([^a1], trigger_db)]
+    ==>
+	[SAYIF ld 'EW_axiom_2 Inconsistent data' ?a1]
+	[ATMS_INCONSISTENT ?a1]
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	RULE EW_axiom_3
+	[sW ?A ?A] [->> a1]
+	[WHERE some_in_db_p([^a1], trigger_db)]
+    ==>
+	[SAYIF ld 'EW_axiom_3 Inconsistent data' ?a1]
+	[ATMS_INCONSISTENT ?a1]
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	RULE EW_axiom_4_1
 	[dE ?A ?B] [->> a1]
 	[WHERE some_in_db_p([^a1], trigger_db)]
-    [LVARS [consequent = add_new_formula([dW ^B ^A])]]
-    ==>
-	[SAYIF ld 'EW_axiom_01_0 Justifying datum' ?consequent ?a1]
+	[LVARS [consequent = add_new_formula([dW ?B ?A])]]
+	==>
+	[SAYIF ld 'EW_axiom_4_1 Justifying datum' ?consequent ?a1]
 	[ATMS_JUSTIFY ?consequent [?a1]]
 
-;;; basic_rules_added_02
-	RULE EW_axiom_01_1
-	[dW ?A ?B] [->> a1]
+	RULE EW_axiom_4_2
+	[dW ?B ?A] [->> a1]
 	[WHERE some_in_db_p([^a1], trigger_db)]
-    [LVARS [consequent = add_new_formula([W ^A ^B])]]
-    ==>
-	[SAYIF ld 'EW_axiom_01_1 Justifying datum' ?consequent ?a1]
+	[LVARS [consequent = add_new_formula([dE ?A ?B])]]
+	==>
+	[SAYIF ld 'EW_axiom_4_2 Justifying datum' ?consequent ?a1]
 	[ATMS_JUSTIFY ?consequent [?a1]]
 
 
-	RULE EW_def2_dE1
-	[dE ?A ?B] [->> a1]
-    [Iew ?A ?B] [->> a2]
-	[WHERE some_in_db_p([^a1 ^a2], trigger_db)]
-	[LVARS [consequent = add_new_formula([E ^A ^B])]]
-    ==>
-	[SAYIF ld 'EW_def2_dE1 Justifying datum' ?consequent ?a1 ?a2]
-	[ATMS_JUSTIFY ?consequent [?a1 ?a2]]
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	RULE EW_axiom_5_1
+	[sE ?A ?B] [->> a1]
+	[WHERE some_in_db_p([^a1], trigger_db)]
+	[LVARS [consequent = add_new_formula([sW ?B ?A])]]
+	==>
+	[SAYIF ld 'EW_axiom_5_1 Justifying datum' ?consequent ?a1]
+	[ATMS_JUSTIFY ?consequent [?a1]]
+
+	RULE EW_axiom_5_2
+	[sW ?B ?A] [->> a1]
+	[WHERE some_in_db_p([^a1], trigger_db)]
+	[LVARS [consequent = add_new_formula([sE ?A ?B])]]
+	==>
+	[SAYIF ld 'EW_axiom_5_2 Justifying datum' ?consequent ?a1]
+	[ATMS_JUSTIFY ?consequent [?a1]]
 
 
-	RULE EW_def2_nEW1
-	[nEW ?A ?B] [->> a1]
-    [E ?A ?B] [->> a2]
-	[WHERE some_in_db_p([^a1 ^a2], trigger_db)]
-    ==>
-    [SAYIF ld 'EW_def2_nEW1 Inconsistent data' ?a1 ?a2]
-	[ATMS_INCONSISTENT ?a1 ?a2]
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-
-	RULE EW_def2_nEW2
-	[nEW ?A ?B] [->> a1]
-    [W ?A ?B] [->> a2]
-	[WHERE some_in_db_p([^a1 ^a2], trigger_db)]
-    ==>
-    [SAYIF ld 'EW_def2_nEW2 Inconsistent data' ?a1 ?a2]
-	[ATMS_INCONSISTENT ?a1 ?a2]
-
-
-	RULE EW_def2_dW1
-	[dW ?A ?B] [->> a1]
-    [Iew ?A ?B] [->> a2]
-	[WHERE some_in_db_p([^a1 ^a2], trigger_db)]
-	[LVARS [consequent = add_new_formula([W ^A ^B])]]
-    ==>
-	[SAYIF ld 'EW_def2_dW1 Justifying datum' ?consequent ?a1 ?a2]
-	[ATMS_JUSTIFY ?consequent [?a1 ?a2]]
-
-
-	RULE EW_definition01
+	RULE EW_axiom_6_1
 	[nEW ?A ?B] [->> a1]
 	[WHERE some_in_db_p([^a1], trigger_db)]
-    [LVARS [consequent = add_new_formula([nEW ^B ^A])]]
-    ==>
-	[SAYIF ld 'EW_definition01 Justifying datum' ?consequent ?a1]
+	[LVARS [consequent = add_new_formula([nEW ?B ?A])]]
+	==>
+	[SAYIF ld 'EW_axiom_6_1 Justifying datum' ?consequent ?a1]
 	[ATMS_JUSTIFY ?consequent [?a1]]
-
-	RULE EW_definition02
-	[dE ?A ?B] [->> a1]
-	[WHERE some_in_db_p([^a1], trigger_db)]
-    [LVARS [consequent = add_new_formula([dW ^B ^A])]]
-    ==>
-	[SAYIF ld 'EW_definition02 Justifying datum' ?consequent ?a1]
-	[ATMS_JUSTIFY ?consequent [?a1]]
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-    ;;; new axioms
-    ;;; AS 1 ¬W (a, a);
-    ;;; AS 2 E(a, b) ↔ W (b, a);
-    ;;; AS 3 Iew (a, b) → Iew (b, a);
-    ;;; AS 4 Iew(a, b) ↔ (¬dE(a, b) ∧ ¬dW (a, b))
-    ;;; This axiom has been deleted /*AS 5 extra: dE(a, b) ↔ dW(b, a)*/
-    ;;; AS 6 W (a, b) ∧ ¬dE(b, c) ∧ W (c, a) → ⊥;
-    ;;; AS 7 ¬E(a, b) ∧ dW (b, c) ∧ ¬E(c, a) → ⊥;
-    ;;; AS 8 W (a, b) ∧ ¬E(b, c) ∧ W(c, d) ∧ ¬E(d, a) → ⊥;
-    ;;; AS 9 W (a, b) ∧ ¬E(b, c) ∧ ¬dE(c, d) ∧ dW (d, a) → ⊥;
-    ;;; AS 10 ¬E(a, b) ∧ W (b, c) ∧ dW (c, d) ∧ ¬dE(d, a) → ⊥;
-    ;;; AS 11 dW (a, b) ∧ ¬dE(b, c) ∧ dW (c, d) ∧ ¬dE(d, a) → ⊥;
-    ;;; AS 12 dW (a, b) ∧ ¬dE(b, c) ∧ ¬dE(c, d) ∧ dW (d, a) → ⊥;
-
-    ;;; or: ¬E(a,b) == nEW(a,b) ∨ W(a,b)
-    ;;;     ¬dE(a,b) == Iew(a,b) ∨ dW(a,b)
+	
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -144,7 +112,7 @@ define :ruleset ew_ld_ruleset;
 
 	RULE EW_axiom_b3
 	[sW ?A ?B] [->> a1]
-	[dE ?B ?A][->> a2]
+	[dW ?B ?A][->> a2]
 	[WHERE some_in_db_p([^a1 ^a2], trigger_db)]
 	==>
     [SAYIF ld 'EW_axiom_b3 Inconsistent data' ?a1 ?a2]

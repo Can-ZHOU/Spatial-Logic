@@ -1,0 +1,486 @@
+===================== processing the file south_0_ew.txt =======================
+**  assumptions 14 premises 41
+** Reasoner time:0.01
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 14 premises 16
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_1_ew.txt =======================
+**  assumptions 16 premises 91
+** Reasoner time:0.01
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 16 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_2_ew.txt =======================
+**  assumptions 8 premises 40
+** Reasoner time:0.01
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 8 premises 2
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_3_ew.txt =======================
+**  assumptions 22 premises 120
+** Reasoner time:0.03
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 22 premises 24
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_4_ew.txt =======================
+**  assumptions 4 premises 65
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 4 premises 29
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_5_ew.txt =======================
+**  assumptions 124 premises 559
+** Reasoner time:0.31
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 124 premises 159
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_6_ew.txt =======================
+**  assumptions 0 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 0 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_7_ew.txt =======================
+**  assumptions 10 premises 27
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 10 premises 9
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_8_ew.txt =======================
+**  assumptions 6 premises 72
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 6 premises 11
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_9_ew.txt =======================
+**  assumptions 55 premises 1026
+** Reasoner time:2.39
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 55 premises 220
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_10_ew.txt =======================
+**  assumptions 6 premises 22
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 6 premises 9
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_11_ew.txt =======================
+**  assumptions 12 premises 520
+** Reasoner time:0.32
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 12 premises 242
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_12_ew.txt =======================
+**  assumptions 50 premises 168
+** Reasoner time:0.01
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 50 premises 73
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_13_ew.txt =======================
+**  assumptions 6 premises 57
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 6 premises 22
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_14_ew.txt =======================
+**  assumptions 123 premises 522
+** Reasoner time:1.16
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 123 premises 216
+** Reasoner time:0.01
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_15_ew.txt =======================
+**  assumptions 11 premises 16
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 11 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_16_ew.txt =======================
+**  assumptions 4 premises 173
+** Reasoner time:0.08
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 4 premises 8
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_17_ew.txt =======================
+**  assumptions 2 premises 7
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 2 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_18_ew.txt =======================
+**  assumptions 29 premises 110
+** Reasoner time:0.02
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 29 premises 2
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_19_ew.txt =======================
+**  assumptions 4 premises 30
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 4 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_20_ew.txt =======================
+**  assumptions 10 premises 509
+** Reasoner time:0.77
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 10 premises 163
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_21_ew.txt =======================
+**  assumptions 0 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 0 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_22_ew.txt =======================
+**  assumptions 13 premises 1578
+** Reasoner time:4.03
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 13 premises 381
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_23_ew.txt =======================
+**  assumptions 6 premises 11
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 6 premises 0
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_24_ew.txt =======================
+**  assumptions 14 premises 113
+** Reasoner time:0.02
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 14 premises 20
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_25_ew.txt =======================
+**  assumptions 12 premises 71
+** Reasoner time:0.01
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 12 premises 40
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
+===================== processing the file south_26_ew.txt =======================
+**  assumptions 4 premises 68
+** Reasoner time:0.01
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+**  assumptions 4 premises 24
+** Reasoner time:0.0
+justification: < atms_node: falsity []
+     justifications []
+    justifies [] >
+** Label computation time 0.0
+ew nogoods = []
+ew nogoods length = 0
+ns nogoods = []
+ns nogoods length = 0
+total nogood number is: 0
