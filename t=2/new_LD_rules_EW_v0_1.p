@@ -42,7 +42,7 @@ define :ruleset ew_ld_ruleset;
 	RULE EW_axiom_4_1
 	[dE ?A ?B] [->> a1]
 	[WHERE some_in_db_p([^a1], trigger_db)]
-	[LVARS [consequent = add_new_formula([dW ?B ?A])]]
+	[LVARS [consequent = add_new_formula([dW ^B ^A])]]
 	==>
 	[SAYIF ld 'EW_axiom_4_1 Justifying datum' ?consequent ?a1]
 	[ATMS_JUSTIFY ?consequent [?a1]]
@@ -50,7 +50,7 @@ define :ruleset ew_ld_ruleset;
 	RULE EW_axiom_4_2
 	[dW ?B ?A] [->> a1]
 	[WHERE some_in_db_p([^a1], trigger_db)]
-	[LVARS [consequent = add_new_formula([dE ?A ?B])]]
+	[LVARS [consequent = add_new_formula([dE ^A ^B])]]
 	==>
 	[SAYIF ld 'EW_axiom_4_2 Justifying datum' ?consequent ?a1]
 	[ATMS_JUSTIFY ?consequent [?a1]]
@@ -61,7 +61,7 @@ define :ruleset ew_ld_ruleset;
 	RULE EW_axiom_5_1
 	[sE ?A ?B] [->> a1]
 	[WHERE some_in_db_p([^a1], trigger_db)]
-	[LVARS [consequent = add_new_formula([sW ?B ?A])]]
+	[LVARS [consequent = add_new_formula([sW ^B ^A])]]
 	==>
 	[SAYIF ld 'EW_axiom_5_1 Justifying datum' ?consequent ?a1]
 	[ATMS_JUSTIFY ?consequent [?a1]]
@@ -69,7 +69,7 @@ define :ruleset ew_ld_ruleset;
 	RULE EW_axiom_5_2
 	[sW ?B ?A] [->> a1]
 	[WHERE some_in_db_p([^a1], trigger_db)]
-	[LVARS [consequent = add_new_formula([sE ?A ?B])]]
+	[LVARS [consequent = add_new_formula([sE ^A ^B])]]
 	==>
 	[SAYIF ld 'EW_axiom_5_2 Justifying datum' ?consequent ?a1]
 	[ATMS_JUSTIFY ?consequent [?a1]]
@@ -80,7 +80,7 @@ define :ruleset ew_ld_ruleset;
 	RULE EW_axiom_6_1
 	[nEW ?A ?B] [->> a1]
 	[WHERE some_in_db_p([^a1], trigger_db)]
-	[LVARS [consequent = add_new_formula([nEW ?B ?A])]]
+	[LVARS [consequent = add_new_formula([nEW ^B ^A])]]
 	==>
 	[SAYIF ld 'EW_axiom_6_1 Justifying datum' ?consequent ?a1]
 	[ATMS_JUSTIFY ?consequent [?a1]]
@@ -136,7 +136,7 @@ define :ruleset ew_ld_ruleset;
 	[sW ?A ?B] [->> a1]
 	[sW ?B ?C] [->> a2]
 	[WHERE some_in_db_p([^a1 ^a2], trigger_db)]
-	[LVARS [consequent = add_new_formula([dW ?A ?C])]]
+	[LVARS [consequent = add_new_formula([dW ^A ^C])]]
 	==>
 	[SAYIF ld 'EW_axiom_7_1 Justifying datum' ?consequent ?a1 ?a2]
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2]]
@@ -145,7 +145,7 @@ define :ruleset ew_ld_ruleset;
 	[sW ?A ?B] [->> a1]
 	[sE ?B ?C] [->> a2]
 	[WHERE some_in_db_p([^a1 ^a2], trigger_db)]
-	[LVARS [consequent = add_new_formula([nEW ?A ?C])]]
+	[LVARS [consequent = add_new_formula([nEW ^A ^C])]]
 	==>
 	[SAYIF ld 'EW_axiom_7_2 Justifying datum' ?consequent ?a1 ?a2]
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2]]
@@ -154,7 +154,7 @@ define :ruleset ew_ld_ruleset;
 	[sE ?A ?B] [->> a1]
 	[sW ?B ?C] [->> a2]
 	[WHERE some_in_db_p([^a1 ^a2], trigger_db)]
-	[LVARS [consequent = add_new_formula([nEW ?A ?C])]]
+	[LVARS [consequent = add_new_formula([nEW ^A ^C])]]
 	==>
 	[SAYIF ld 'EW_axiom_7_3 Justifying datum' ?consequent ?a1 ?a2]
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2]]
@@ -166,7 +166,7 @@ define :ruleset ew_ld_ruleset;
 	[nEW ?A ?B] [->> a1]
 	[dW ?B ?C] [->> a2]
 	[WHERE some_in_db_p([^a1 ^a2], trigger_db)]
-	[LVARS [consequent = add_new_formula([sW ?A ?C])]]
+	[LVARS [consequent = add_new_formula([sW ^A ^C])]]
 	==>
 	[SAYIF ld 'EW_axiom_8_1 Justifying datum' ?consequent ?a1 ?a2]
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2]]
@@ -175,7 +175,7 @@ define :ruleset ew_ld_ruleset;
 	[nEW ?A ?B] [->> a1]
 	[nEW ?B ?C] [->> a2]
 	[WHERE some_in_db_p([^a1 ^a2], trigger_db)]
-	[LVARS [consequent = add_new_formula([sE ?A ?C])]]
+	[LVARS [consequent = add_new_formula([sE ^A ^C])]]
 	==>
 	[SAYIF ld 'EW_axiom_8_2 Justifying datum' ?consequent ?a1 ?a2]
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2]]
@@ -184,7 +184,7 @@ define :ruleset ew_ld_ruleset;
 	[dW ?A ?B] [->> a1]
 	[nEW ?B ?C] [->> a2]
 	[WHERE some_in_db_p([^a1 ^a2], trigger_db)]
-	[LVARS [consequent = add_new_formula([sW ?A ?C])]]
+	[LVARS [consequent = add_new_formula([sW ^A ^C])]]
 	==>
 	[SAYIF ld 'EW_axiom_8_3 Justifying datum' ?consequent ?a1 ?a2]
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2]]
@@ -197,7 +197,7 @@ define :ruleset ew_ld_ruleset;
 	[nEW ?B ?C] [->> a2]
 	[sW ?C ?D] [->> a3]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
-	[LVARS [consequent = add_new_formula([sW ?A ?D])]]
+	[LVARS [consequent = add_new_formula([sW ^A ^D])]]
 	==>
 	[SAYIF ld 'EW_axiom_9_1 Justifying datum' ?consequent ?a1 ?a2 ?a3]
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2 ?a3]]
@@ -207,7 +207,7 @@ define :ruleset ew_ld_ruleset;
 	[sW ?B ?C] [->> a2]
 	[nEW ?C ?D] [->> a3]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
-	[LVARS [consequent = add_new_formula([nEW ?A ?D])]]
+	[LVARS [consequent = add_new_formula([nEW ^A ^D])]]
 	==>
 	[SAYIF ld 'EW_axiom_9_2 Justifying datum' ?consequent ?a1 ?a2 ?a3]
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2 ?a3]]
@@ -220,7 +220,7 @@ define :ruleset ew_ld_ruleset;
 	[nEW ?B ?C] [->> a2]
 	[sE ?C ?D] [->> a3]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
-	[LVARS [consequent = add_new_formula([sE ?A ?D])]]
+	[LVARS [consequent = add_new_formula([sE ^A ^D])]]
 	==>
 	[SAYIF ld 'EW_axiom_10_1 Justifying datum' ?consequent ?a1 ?a2 ?a3]
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2 ?a3]]
@@ -230,7 +230,7 @@ define :ruleset ew_ld_ruleset;
 	[dW ?B ?C] [->> a2]
 	[sW ?C ?D] [->> a3]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
-	[LVARS [consequent = add_new_formula([sW ?A ?D])]]
+	[LVARS [consequent = add_new_formula([sW ^A ^D])]]
 	==>
 	[SAYIF ld 'EW_axiom_10_2 Justifying datum' ?consequent ?a1 ?a2 ?a3]
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2 ?a3]]
@@ -243,7 +243,7 @@ define :ruleset ew_ld_ruleset;
 	[sE ?B ?C] [->> a2]
 	[nEW ?C ?D] [->> a3]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
-	[LVARS [consequent = add_new_formula([nEW ?A ?D])]]
+	[LVARS [consequent = add_new_formula([nEW ^A ^D])]]
 	==>
 	[SAYIF ld 'EW_axiom_11_1 Justifying datum' ?consequent ?a1 ?a2 ?a3]
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2 ?a3]]
@@ -253,7 +253,7 @@ define :ruleset ew_ld_ruleset;
 	[sW ?B ?C] [->> a2]
 	[dW ?C ?D] [->> a3]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
-	[LVARS [consequent = add_new_formula([dW ?A ?D])]]
+	[LVARS [consequent = add_new_formula([dW ^A ^D])]]
 	==>
 	[SAYIF ld 'EW_axiom_11_2 Justifying datum' ?consequent ?a1 ?a2 ?a3]
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2 ?a3]]
@@ -266,7 +266,7 @@ define :ruleset ew_ld_ruleset;
 	[sE ?B ?C] [->> a2]
 	[dW ?C ?D] [->> a3]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
-	[LVARS [consequent = add_new_formula([dW ?A ?D])]]
+	[LVARS [consequent = add_new_formula([dW ^A ^D])]]
 	==>
 	[SAYIF ld 'EW_axiom_12_1 Justifying datum' ?consequent ?a1 ?a2 ?a3]
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2 ?a3]]
@@ -276,7 +276,7 @@ define :ruleset ew_ld_ruleset;
 	[dW ?B ?C] [->> a2]
 	[sE ?C ?D] [->> a3]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
-	[LVARS [consequent = add_new_formula([sE ?A ?D])]]
+	[LVARS [consequent = add_new_formula([sE ^A ^D])]]
 	==>
 	[SAYIF ld 'EW_axiom_12_2 Justifying datum' ?consequent ?a1 ?a2 ?a3]
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2 ?a3]]
@@ -289,7 +289,7 @@ define :ruleset ew_ld_ruleset;
 	[sE ?B ?C] [->> a2]
 	[sE ?C ?D] [->> a3]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
-	[LVARS [consequent = add_new_formula([sE ?A ?D])]]
+	[LVARS [consequent = add_new_formula([sE ^A ^D])]]
 	==>
 	[SAYIF ld 'EW_axiom_13_1 Justifying datum' ?consequent ?a1 ?a2 ?a3]
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2 ?a3]]
@@ -299,7 +299,7 @@ define :ruleset ew_ld_ruleset;
 	[dW ?B ?C] [->> a2]
 	[dW ?C ?D] [->> a3]
 	[WHERE some_in_db_p([^a1 ^a2 ^a3], trigger_db)]
-	[LVARS [consequent = add_new_formula([dW ?A ?D])]]
+	[LVARS [consequent = add_new_formula([dW ^A ^D])]]
 	==>
 	[SAYIF ld 'EW_axiom_9_2 Justifying datum' ?consequent ?a1 ?a2 ?a3]
 	[ATMS_JUSTIFY ?consequent [?a1 ?a2 ?a3]]
